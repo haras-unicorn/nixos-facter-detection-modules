@@ -1,0 +1,810 @@
+{
+  "bluetooth": {
+    "enable": false,
+    "receivers": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "capabilities": {
+    "graphics": false,
+    "interaction": false,
+    "listening": false,
+    "pointing": false,
+    "sound": false,
+    "typing": false
+  },
+  "cpu": { "cores": 1, "threads": 1, "type": "arm" },
+  "disks": {
+    "byDev": {
+      "/dev/disk/by-diskseq/25": {
+        "dev": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "model": "ICY BOX IB-200T-C3",
+        "modules": [],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 1024209543168,
+        "sys": "/sys/class/block/sda"
+      },
+      "/dev/disk/by-id/ata-SSD_1TB_202305030109": {
+        "dev": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "model": "ICY BOX IB-200T-C3",
+        "modules": [],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 1024209543168,
+        "sys": "/sys/class/block/sda"
+      },
+      "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0": {
+        "dev": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "model": "ICY BOX IB-200T-C3",
+        "modules": [],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 1024209543168,
+        "sys": "/sys/class/block/sda"
+      },
+      "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0": {
+        "dev": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "model": "ICY BOX IB-200T-C3",
+        "modules": [],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 1024209543168,
+        "sys": "/sys/class/block/sda"
+      },
+      "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0": {
+        "dev": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "model": "ICY BOX IB-200T-C3",
+        "modules": [],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 1024209543168,
+        "sys": "/sys/class/block/sda"
+      },
+      "/dev/ram0": {
+        "dev": ["/dev/ram0"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram0"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram0"
+      },
+      "/dev/ram1": {
+        "dev": ["/dev/ram1"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram1"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram1"
+      },
+      "/dev/ram10": {
+        "dev": ["/dev/ram10"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram10"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram10"
+      },
+      "/dev/ram11": {
+        "dev": ["/dev/ram11"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram11"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram11"
+      },
+      "/dev/ram12": {
+        "dev": ["/dev/ram12"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram12"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram12"
+      },
+      "/dev/ram13": {
+        "dev": ["/dev/ram13"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram13"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram13"
+      },
+      "/dev/ram14": {
+        "dev": ["/dev/ram14"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram14"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram14"
+      },
+      "/dev/ram15": {
+        "dev": ["/dev/ram15"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram15"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram15"
+      },
+      "/dev/ram2": {
+        "dev": ["/dev/ram2"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram2"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram2"
+      },
+      "/dev/ram3": {
+        "dev": ["/dev/ram3"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram3"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram3"
+      },
+      "/dev/ram4": {
+        "dev": ["/dev/ram4"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram4"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram4"
+      },
+      "/dev/ram5": {
+        "dev": ["/dev/ram5"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram5"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram5"
+      },
+      "/dev/ram6": {
+        "dev": ["/dev/ram6"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram6"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram6"
+      },
+      "/dev/ram7": {
+        "dev": ["/dev/ram7"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram7"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram7"
+      },
+      "/dev/ram8": {
+        "dev": ["/dev/ram8"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram8"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram8"
+      },
+      "/dev/ram9": {
+        "dev": ["/dev/ram9"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram9"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram9"
+      },
+      "/dev/sda": {
+        "dev": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "model": "ICY BOX IB-200T-C3",
+        "modules": [],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 1024209543168,
+        "sys": "/sys/class/block/sda"
+      }
+    },
+    "byModel": [
+      {
+        "dev": ["/dev/ram2"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram2"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram2"
+      },
+      {
+        "dev": ["/dev/ram0"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram0"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram0"
+      },
+      {
+        "dev": ["/dev/ram9"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram9"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram9"
+      },
+      {
+        "dev": ["/dev/ram14"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram14"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram14"
+      },
+      {
+        "dev": ["/dev/ram7"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram7"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram7"
+      },
+      {
+        "dev": ["/dev/ram12"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram12"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram12"
+      },
+      {
+        "dev": ["/dev/ram5"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram5"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram5"
+      },
+      {
+        "dev": ["/dev/ram10"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram10"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram10"
+      },
+      {
+        "dev": ["/dev/ram3"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram3"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram3"
+      },
+      {
+        "dev": ["/dev/ram1"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram1"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram1"
+      },
+      {
+        "dev": ["/dev/ram15"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram15"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram15"
+      },
+      {
+        "dev": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "model": "ICY BOX IB-200T-C3",
+        "modules": [],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 1024209543168,
+        "sys": "/sys/class/block/sda"
+      },
+      {
+        "dev": ["/dev/ram8"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram8"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram8"
+      },
+      {
+        "dev": ["/dev/ram13"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram13"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram13"
+      },
+      {
+        "dev": ["/dev/ram6"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram6"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram6"
+      },
+      {
+        "dev": ["/dev/ram11"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram11"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram11"
+      },
+      {
+        "dev": ["/dev/ram4"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram4"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram4"
+      }
+    ],
+    "byMount": {},
+    "byPci": {},
+    "bySys": {
+      "/sys/class/block/ram0": {
+        "dev": ["/dev/ram0"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram0"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram0"
+      },
+      "/sys/class/block/ram1": {
+        "dev": ["/dev/ram1"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram1"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram1"
+      },
+      "/sys/class/block/ram10": {
+        "dev": ["/dev/ram10"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram10"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram10"
+      },
+      "/sys/class/block/ram11": {
+        "dev": ["/dev/ram11"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram11"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram11"
+      },
+      "/sys/class/block/ram12": {
+        "dev": ["/dev/ram12"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram12"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram12"
+      },
+      "/sys/class/block/ram13": {
+        "dev": ["/dev/ram13"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram13"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram13"
+      },
+      "/sys/class/block/ram14": {
+        "dev": ["/dev/ram14"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram14"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram14"
+      },
+      "/sys/class/block/ram15": {
+        "dev": ["/dev/ram15"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram15"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram15"
+      },
+      "/sys/class/block/ram2": {
+        "dev": ["/dev/ram2"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram2"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram2"
+      },
+      "/sys/class/block/ram3": {
+        "dev": ["/dev/ram3"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram3"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram3"
+      },
+      "/sys/class/block/ram4": {
+        "dev": ["/dev/ram4"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram4"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram4"
+      },
+      "/sys/class/block/ram5": {
+        "dev": ["/dev/ram5"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram5"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram5"
+      },
+      "/sys/class/block/ram6": {
+        "dev": ["/dev/ram6"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram6"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram6"
+      },
+      "/sys/class/block/ram7": {
+        "dev": ["/dev/ram7"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram7"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram7"
+      },
+      "/sys/class/block/ram8": {
+        "dev": ["/dev/ram8"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram8"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram8"
+      },
+      "/sys/class/block/ram9": {
+        "dev": ["/dev/ram9"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram9"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram9"
+      },
+      "/sys/class/block/sda": {
+        "dev": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "model": "ICY BOX IB-200T-C3",
+        "modules": [],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/25",
+          "/dev/disk/by-id/ata-SSD_1TB_202305030109",
+          "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0",
+          "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 1024209543168,
+        "sys": "/sys/class/block/sda"
+      }
+    }
+  },
+  "graphics": {
+    "cards": {
+      "byDev": {},
+      "byModel": [],
+      "byPci": {},
+      "byPort": {},
+      "bySys": {},
+      "byVram": [],
+      "default": null,
+      "integrated": null
+    },
+    "enable": false
+  },
+  "logitech": {
+    "enable": false,
+    "receivers": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "memory": { "size": 8053063680 },
+  "monitor": {
+    "displays": {
+      "byDev": {},
+      "byModel": [],
+      "byPci": {},
+      "bySize": [],
+      "bySys": {},
+      "default": null
+    },
+    "enable": false
+  },
+  "network": {
+    "enable": true,
+    "interfaces": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "WLAN network interface",
+          "modules": ["brcmfmac", "brcmfmac", "brcmfmac"],
+          "name": "wlan0",
+          "pci": null,
+          "sys": "/sys/class/net/wlan0"
+        },
+        {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": [],
+          "name": "end0",
+          "pci": null,
+          "sys": "/sys/class/net/end0"
+        }
+      ],
+      "byName": {
+        "end0": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": [],
+          "name": "end0",
+          "pci": null,
+          "sys": "/sys/class/net/end0"
+        },
+        "wlan0": {
+          "dev": [],
+          "model": "WLAN network interface",
+          "modules": ["brcmfmac", "brcmfmac", "brcmfmac"],
+          "name": "wlan0",
+          "pci": null,
+          "sys": "/sys/class/net/wlan0"
+        }
+      },
+      "byPci": {},
+      "bySys": {
+        "/sys/class/net/end0": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": [],
+          "name": "end0",
+          "pci": null,
+          "sys": "/sys/class/net/end0"
+        },
+        "/sys/class/net/wlan0": {
+          "dev": [],
+          "model": "WLAN network interface",
+          "modules": ["brcmfmac", "brcmfmac", "brcmfmac"],
+          "name": "wlan0",
+          "pci": null,
+          "sys": "/sys/class/net/wlan0"
+        }
+      },
+      "default": {
+        "dev": [],
+        "model": "WLAN network interface",
+        "modules": ["brcmfmac", "brcmfmac", "brcmfmac"],
+        "name": "wlan0",
+        "pci": null,
+        "sys": "/sys/class/net/wlan0"
+      }
+    }
+  },
+  "pointer": {
+    "enable": false,
+    "mice": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "sound": {
+    "cards": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} },
+    "enable": false
+  },
+  "system": "aarch64-linux",
+  "typer": {
+    "enable": false,
+    "keyboards": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "version": 1,
+  "virtualisation": "none"
+}

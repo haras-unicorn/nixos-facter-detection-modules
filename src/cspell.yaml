@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/streetsidesoftware/cspell/refs/heads/main/cspell.schema.json
+useGitignore: true
+version: "0.2"
+language: en
+ignoreWords:
+  - langservers
+  - taplo
+  - foldl
+  - attrset
+  - fetchurl
+  - ints
+  - sysfs
+  - amdgpu
+  - millimetres
+  - realpath
+  - typer
+  - virtualisation

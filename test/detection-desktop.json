@@ -1,0 +1,664 @@
+{
+  "bluetooth": {
+    "enable": true,
+    "receivers": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "TP-Link UB500 Adapter",
+          "modules": ["btusb"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-9/1-9:1.0"
+        },
+        {
+          "dev": [],
+          "model": "TP-Link UB500 Adapter",
+          "modules": ["btusb"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-9/1-9:1.1"
+        }
+      ],
+      "byPci": {},
+      "bySys": {
+        "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-9/1-9:1.0": {
+          "dev": [],
+          "model": "TP-Link UB500 Adapter",
+          "modules": ["btusb"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-9/1-9:1.0"
+        },
+        "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-9/1-9:1.1": {
+          "dev": [],
+          "model": "TP-Link UB500 Adapter",
+          "modules": ["btusb"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-9/1-9:1.1"
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "graphics": true,
+    "interaction": true,
+    "listening": true,
+    "pointing": true,
+    "sound": true,
+    "typing": true
+  },
+  "cpu": { "cores": 8, "threads": 16, "type": "amd" },
+  "disks": {
+    "byDev": {
+      "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841": {
+        "dev": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "KINGSTON SKC3000D2048G",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 2048408248320,
+        "sys": "/sys/class/block/nvme0n1"
+      },
+      "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1": {
+        "dev": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "KINGSTON SKC3000D2048G",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 2048408248320,
+        "sys": "/sys/class/block/nvme0n1"
+      },
+      "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415": {
+        "dev": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "KINGSTON SKC3000D2048G",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 2048408248320,
+        "sys": "/sys/class/block/nvme0n1"
+      },
+      "/dev/disk/by-path/pci-0000:02:00.0-nvme-1": {
+        "dev": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "KINGSTON SKC3000D2048G",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 2048408248320,
+        "sys": "/sys/class/block/nvme0n1"
+      },
+      "/dev/nvme0n1": {
+        "dev": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "KINGSTON SKC3000D2048G",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 2048408248320,
+        "sys": "/sys/class/block/nvme0n1"
+      }
+    },
+    "byModel": [
+      {
+        "dev": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "KINGSTON SKC3000D2048G",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 2048408248320,
+        "sys": "/sys/class/block/nvme0n1"
+      }
+    ],
+    "byMount": {},
+    "byPci": {},
+    "bySys": {
+      "/sys/class/block/nvme0n1": {
+        "dev": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "KINGSTON SKC3000D2048G",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841",
+          "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1",
+          "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 2048408248320,
+        "sys": "/sys/class/block/nvme0n1"
+      }
+    }
+  },
+  "graphics": {
+    "cards": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "nVidia VGA compatible controller",
+          "modules": ["nvidia"],
+          "open": true,
+          "pci": "PCI:1:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.0",
+          "type": "nvidia",
+          "version": "latest",
+          "wayland": true
+        },
+        {
+          "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": ["amdgpu"],
+          "open": false,
+          "pci": "PCI:12:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
+          "type": "amd",
+          "version": "unknown",
+          "wayland": true
+        }
+      ],
+      "byPci": {
+        "PCI:12:0:0": {
+          "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": ["amdgpu"],
+          "open": false,
+          "pci": "PCI:12:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
+          "type": "amd",
+          "version": "unknown",
+          "wayland": true
+        },
+        "PCI:1:0:0": {
+          "dev": [],
+          "model": "nVidia VGA compatible controller",
+          "modules": ["nvidia"],
+          "open": true,
+          "pci": "PCI:1:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.0",
+          "type": "nvidia",
+          "version": "latest",
+          "wayland": true
+        }
+      },
+      "byPort": {},
+      "bySys": {
+        "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.0": {
+          "dev": [],
+          "model": "nVidia VGA compatible controller",
+          "modules": ["nvidia"],
+          "open": true,
+          "pci": "PCI:1:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.0",
+          "type": "nvidia",
+          "version": "latest",
+          "wayland": true
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0": {
+          "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": ["amdgpu"],
+          "open": false,
+          "pci": "PCI:12:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
+          "type": "amd",
+          "version": "unknown",
+          "wayland": true
+        }
+      },
+      "byVram": [
+        {
+          "dev": [],
+          "model": "nVidia VGA compatible controller",
+          "modules": ["nvidia"],
+          "open": true,
+          "pci": "PCI:1:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.0",
+          "type": "nvidia",
+          "version": "latest",
+          "wayland": true
+        },
+        {
+          "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": ["amdgpu"],
+          "open": false,
+          "pci": "PCI:12:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
+          "type": "amd",
+          "version": "unknown",
+          "wayland": true
+        }
+      ],
+      "default": {
+        "dev": [],
+        "model": "nVidia VGA compatible controller",
+        "modules": ["nvidia"],
+        "open": true,
+        "pci": "PCI:1:0:0",
+        "sys": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.0",
+        "type": "nvidia",
+        "version": "latest",
+        "wayland": true
+      },
+      "integrated": {
+        "dev": [],
+        "model": "ATI VGA compatible controller",
+        "modules": ["amdgpu"],
+        "open": false,
+        "pci": "PCI:12:0:0",
+        "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
+        "type": "amd",
+        "version": "unknown",
+        "wayland": true
+      }
+    },
+    "enable": true
+  },
+  "logitech": {
+    "enable": true,
+    "receivers": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "Logitech USB Receiver",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1"
+        },
+        {
+          "dev": [],
+          "model": "Logitech USB Receiver",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0"
+        }
+      ],
+      "byPci": {},
+      "bySys": {
+        "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0": {
+          "dev": [],
+          "model": "Logitech USB Receiver",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0"
+        },
+        "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1": {
+          "dev": [],
+          "model": "Logitech USB Receiver",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1"
+        }
+      }
+    }
+  },
+  "memory": { "size": 64424509440 },
+  "monitor": {
+    "displays": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "dpi": 94.23768115942029,
+          "height": 1080,
+          "model": "Mi 30 HFCW",
+          "modules": [],
+          "pci": null,
+          "sys": null,
+          "width": 2560
+        }
+      ],
+      "byPci": {},
+      "bySize": [
+        {
+          "dev": [],
+          "dpi": 94.23768115942029,
+          "height": 1080,
+          "model": "Mi 30 HFCW",
+          "modules": [],
+          "pci": null,
+          "sys": null,
+          "width": 2560
+        }
+      ],
+      "bySys": {},
+      "default": {
+        "dev": [],
+        "dpi": 94.23768115942029,
+        "height": 1080,
+        "model": "Mi 30 HFCW",
+        "modules": [],
+        "pci": null,
+        "sys": null,
+        "width": 2560
+      }
+    },
+    "enable": true
+  },
+  "network": {
+    "enable": true,
+    "interfaces": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["r8169"],
+          "name": "eno1",
+          "pci": null,
+          "sys": "/sys/class/net/eno1"
+        }
+      ],
+      "byName": {
+        "eno1": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["r8169"],
+          "name": "eno1",
+          "pci": null,
+          "sys": "/sys/class/net/eno1"
+        }
+      },
+      "byPci": {},
+      "bySys": {
+        "/sys/class/net/eno1": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["r8169"],
+          "name": "eno1",
+          "pci": null,
+          "sys": "/sys/class/net/eno1"
+        }
+      },
+      "default": {
+        "dev": [],
+        "model": "Ethernet network interface",
+        "modules": ["r8169"],
+        "name": "eno1",
+        "pci": null,
+        "sys": "/sys/class/net/eno1"
+      }
+    }
+  },
+  "pointer": {
+    "enable": true,
+    "mice": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "Logitech USB Receiver",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1"
+        }
+      ],
+      "byPci": {},
+      "bySys": {
+        "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1": {
+          "dev": [],
+          "model": "Logitech USB Receiver",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1"
+        }
+      }
+    }
+  },
+  "sound": {
+    "cards": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "ATI Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:12:0:1",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.1"
+        },
+        {
+          "dev": [],
+          "model": "AMD Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:12:0:6",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.6"
+        },
+        {
+          "dev": [],
+          "model": "nVidia Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:1:0:1",
+          "sys": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.1"
+        },
+        {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.0"
+        },
+        {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.3"
+        },
+        {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.1"
+        },
+        {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.4"
+        },
+        {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.2"
+        }
+      ],
+      "byPci": {
+        "PCI:12:0:1": {
+          "dev": [],
+          "model": "ATI Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:12:0:1",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.1"
+        },
+        "PCI:12:0:6": {
+          "dev": [],
+          "model": "AMD Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:12:0:6",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.6"
+        },
+        "PCI:1:0:1": {
+          "dev": [],
+          "model": "nVidia Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:1:0:1",
+          "sys": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.1"
+        }
+      },
+      "bySys": {
+        "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.1": {
+          "dev": [],
+          "model": "nVidia Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:1:0:1",
+          "sys": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.1"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.1": {
+          "dev": [],
+          "model": "ATI Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:12:0:1",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.1"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.0": {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.0"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.1": {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.1"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.2": {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.2"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.3": {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.3"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.4": {
+          "dev": [],
+          "model": "PreSonus AudioBox USB 96",
+          "modules": ["snd_usb_audio"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.4/usb5/5-1/5-1:1.4"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.6": {
+          "dev": [],
+          "model": "AMD Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:12:0:6",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.6"
+        }
+      }
+    },
+    "enable": true
+  },
+  "system": "x86_64-linux",
+  "typer": {
+    "enable": true,
+    "keyboards": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "Logitech USB Receiver",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0"
+        }
+      ],
+      "byPci": {},
+      "bySys": {
+        "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0": {
+          "dev": [],
+          "model": "Logitech USB Receiver",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0"
+        }
+      }
+    }
+  },
+  "version": 1,
+  "virtualisation": "none"
+}
