@@ -1,0 +1,467 @@
+{
+  "bluetooth": {
+    "enable": true,
+    "receivers": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "MediaTek Wireless_Device",
+          "modules": ["btusb"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1"
+        },
+        {
+          "dev": [],
+          "model": "MediaTek Wireless_Device",
+          "modules": [],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2"
+        },
+        {
+          "dev": [],
+          "model": "MediaTek Wireless_Device",
+          "modules": ["btusb"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0"
+        }
+      ],
+      "byPci": {},
+      "bySys": {
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0": {
+          "dev": [],
+          "model": "MediaTek Wireless_Device",
+          "modules": ["btusb"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1": {
+          "dev": [],
+          "model": "MediaTek Wireless_Device",
+          "modules": ["btusb"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2": {
+          "dev": [],
+          "model": "MediaTek Wireless_Device",
+          "modules": [],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2"
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "graphics": true,
+    "interaction": true,
+    "listening": true,
+    "pointing": true,
+    "sound": true,
+    "typing": true
+  },
+  "cpu": { "cores": 8, "threads": 16, "type": "amd" },
+  "disks": {
+    "byDev": {
+      "/dev/disk/by-diskseq/1": {
+        "dev": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "HFM512GD3JX013N",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 512110190592,
+        "sys": "/sys/class/block/nvme0n1"
+      },
+      "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O": {
+        "dev": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "HFM512GD3JX013N",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 512110190592,
+        "sys": "/sys/class/block/nvme0n1"
+      },
+      "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1": {
+        "dev": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "HFM512GD3JX013N",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 512110190592,
+        "sys": "/sys/class/block/nvme0n1"
+      },
+      "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001": {
+        "dev": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "HFM512GD3JX013N",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 512110190592,
+        "sys": "/sys/class/block/nvme0n1"
+      },
+      "/dev/disk/by-path/pci-0000:02:00.0-nvme-1": {
+        "dev": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "HFM512GD3JX013N",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 512110190592,
+        "sys": "/sys/class/block/nvme0n1"
+      },
+      "/dev/nvme0n1": {
+        "dev": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "HFM512GD3JX013N",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 512110190592,
+        "sys": "/sys/class/block/nvme0n1"
+      }
+    },
+    "byModel": [
+      {
+        "dev": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "HFM512GD3JX013N",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 512110190592,
+        "sys": "/sys/class/block/nvme0n1"
+      }
+    ],
+    "byMount": {},
+    "byPci": {},
+    "bySys": {
+      "/sys/class/block/nvme0n1": {
+        "dev": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "model": "HFM512GD3JX013N",
+        "modules": ["nvme"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-diskseq/1",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O",
+          "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1",
+          "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001",
+          "/dev/disk/by-path/pci-0000:02:00.0-nvme-1",
+          "/dev/nvme0n1"
+        ],
+        "pci": null,
+        "size": 512110190592,
+        "sys": "/sys/class/block/nvme0n1"
+      }
+    }
+  },
+  "graphics": {
+    "cards": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": ["amdgpu"],
+          "open": false,
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
+          "type": "amd",
+          "version": "unknown",
+          "wayland": true
+        }
+      ],
+      "byPci": {},
+      "byPort": {},
+      "bySys": {
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0": {
+          "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": ["amdgpu"],
+          "open": false,
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
+          "type": "amd",
+          "version": "unknown",
+          "wayland": true
+        }
+      },
+      "byVram": [
+        {
+          "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": ["amdgpu"],
+          "open": false,
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
+          "type": "amd",
+          "version": "unknown",
+          "wayland": true
+        }
+      ],
+      "default": {
+        "dev": [],
+        "model": "ATI VGA compatible controller",
+        "modules": ["amdgpu"],
+        "open": false,
+        "pci": null,
+        "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
+        "type": "amd",
+        "version": "unknown",
+        "wayland": true
+      },
+      "integrated": null
+    },
+    "enable": true
+  },
+  "logitech": {
+    "enable": false,
+    "receivers": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "memory": { "size": 16106127360 },
+  "monitor": {
+    "displays": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "dpi": 141.7674418604651,
+          "height": 1080,
+          "model": "",
+          "modules": [],
+          "pci": null,
+          "sys": null,
+          "width": 1920
+        }
+      ],
+      "byPci": {},
+      "bySize": [
+        {
+          "dev": [],
+          "dpi": 141.7674418604651,
+          "height": 1080,
+          "model": "",
+          "modules": [],
+          "pci": null,
+          "sys": null,
+          "width": 1920
+        }
+      ],
+      "bySys": {},
+      "default": {
+        "dev": [],
+        "dpi": 141.7674418604651,
+        "height": 1080,
+        "model": "",
+        "modules": [],
+        "pci": null,
+        "sys": null,
+        "width": 1920
+      }
+    },
+    "enable": true
+  },
+  "network": {
+    "enable": true,
+    "interfaces": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["mt7921e"],
+          "name": "wlp1s0",
+          "pci": null,
+          "sys": "/sys/class/net/wlp1s0"
+        }
+      ],
+      "byName": {
+        "wlp1s0": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["mt7921e"],
+          "name": "wlp1s0",
+          "pci": null,
+          "sys": "/sys/class/net/wlp1s0"
+        }
+      },
+      "byPci": {},
+      "bySys": {
+        "/sys/class/net/wlp1s0": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["mt7921e"],
+          "name": "wlp1s0",
+          "pci": null,
+          "sys": "/sys/class/net/wlp1s0"
+        }
+      },
+      "default": {
+        "dev": [],
+        "model": "Ethernet network interface",
+        "modules": ["mt7921e"],
+        "name": "wlp1s0",
+        "pci": null,
+        "sys": "/sys/class/net/wlp1s0"
+      }
+    }
+  },
+  "pointer": {
+    "enable": false,
+    "mice": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "sound": {
+    "cards": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "ATI Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1"
+        },
+        {
+          "dev": [],
+          "model": "AMD Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6"
+        }
+      ],
+      "byPci": {},
+      "bySys": {
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1": {
+          "dev": [],
+          "model": "ATI Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1"
+        },
+        "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6": {
+          "dev": [],
+          "model": "AMD Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6"
+        }
+      }
+    },
+    "enable": true
+  },
+  "system": "x86_64-linux",
+  "typer": {
+    "enable": false,
+    "keyboards": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "version": 1,
+  "virtualisation": "none"
+}
