@@ -100,6 +100,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.bluetooth\.receivers\.byDev\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.bluetooth\.receivers\.byModel
 
 Devices sorted by model in descending alphabetical order\.
@@ -165,6 +177,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.bluetooth\.receivers\.byModel\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -250,6 +274,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.bluetooth\.receivers\.byPci\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.bluetooth\.receivers\.bySys
 
 Mapping from /sys path to device\.
@@ -321,6 +357,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.bluetooth\.receivers\.bySys\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -544,6 +592,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.disks\.byDev\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.disks\.byModel
 
 Devices sorted by model in descending alphabetical order\.
@@ -639,6 +699,18 @@ _Type:_ unsigned integer, meaning >=0
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.disks\.byModel\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -754,6 +826,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.disks\.byMount\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.disks\.byPci
 
 Mapping from PCI id to device\.
@@ -862,6 +946,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.disks\.byPci\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.disks\.bySys
 
 Mapping from /sys path to device\.
@@ -963,6 +1059,18 @@ _Type:_ unsigned integer, meaning >=0
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.disks\.bySys\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -1082,7 +1190,19 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+
+## hardware\.facter\.detection\.graphics\.cards\.byDev\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
 
 ## hardware\.facter\.detection\.graphics\.cards\.byDev\.\<name>\.version
 
@@ -1178,7 +1298,19 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+
+## hardware\.facter\.detection\.graphics\.cards\.byModel\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
 
 ## hardware\.facter\.detection\.graphics\.cards\.byModel\.\*\.version
 
@@ -1280,7 +1412,19 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+
+## hardware\.facter\.detection\.graphics\.cards\.byPci\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
 
 ## hardware\.facter\.detection\.graphics\.cards\.byPci\.\<name>\.version
 
@@ -1382,7 +1526,19 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+
+## hardware\.facter\.detection\.graphics\.cards\.byPort\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
 
 ## hardware\.facter\.detection\.graphics\.cards\.byPort\.\<name>\.version
 
@@ -1484,7 +1640,19 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+
+## hardware\.facter\.detection\.graphics\.cards\.bySys\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
 
 ## hardware\.facter\.detection\.graphics\.cards\.bySys\.\<name>\.version
 
@@ -1580,7 +1748,19 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+
+## hardware\.facter\.detection\.graphics\.cards\.byVram\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
 
 ## hardware\.facter\.detection\.graphics\.cards\.byVram\.\*\.version
 
@@ -1682,7 +1862,19 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+
+## hardware\.facter\.detection\.graphics\.cards\.default\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
 
 ## hardware\.facter\.detection\.graphics\.cards\.default\.version
 
@@ -1784,7 +1976,19 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+
+## hardware\.facter\.detection\.graphics\.cards\.integrated\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
 
 ## hardware\.facter\.detection\.graphics\.cards\.integrated\.version
 
@@ -1900,6 +2104,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.logitech\.receivers\.byDev\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.logitech\.receivers\.byModel
 
 Devices sorted by model in descending alphabetical order\.
@@ -1965,6 +2181,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.logitech\.receivers\.byModel\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -2050,6 +2278,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.logitech\.receivers\.byPci\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.logitech\.receivers\.bySys
 
 Mapping from /sys path to device\.
@@ -2121,6 +2361,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.logitech\.receivers\.bySys\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -2254,6 +2506,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.monitor\.displays\.byDev\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.monitor\.displays\.byDev\.\<name>\.width
 
 Monitor width in pixels\.
@@ -2337,6 +2601,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.monitor\.displays\.byModel\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -2440,6 +2716,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.monitor\.displays\.byPci\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.monitor\.displays\.byPci\.\<name>\.width
 
 Monitor width in pixels\.
@@ -2523,6 +2811,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.monitor\.displays\.bySize\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -2626,6 +2926,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.monitor\.displays\.bySys\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.monitor\.displays\.bySys\.\<name>\.width
 
 Monitor width in pixels\.
@@ -2715,6 +3027,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.monitor\.displays\.default\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -2836,6 +3160,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.network\.interfaces\.byDev\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.network\.interfaces\.byModel
 
 Devices sorted by model in descending alphabetical order\.
@@ -2914,6 +3250,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.network\.interfaces\.byModel\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.network\.interfaces\.byName
 
 Mapping of name to network interface\.
@@ -2985,6 +3333,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.network\.interfaces\.byName\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -3076,6 +3436,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.network\.interfaces\.byPci\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.network\.interfaces\.bySys
 
 Mapping from /sys path to device\.
@@ -3160,6 +3532,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.network\.interfaces\.bySys\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.network\.interfaces\.default
 
 User-provided default network interface\.
@@ -3237,6 +3621,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.network\.interfaces\.default\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -3346,6 +3742,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.pointer\.mice\.byDev\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.pointer\.mice\.byModel
 
 Devices sorted by model in descending alphabetical order\.
@@ -3411,6 +3819,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.pointer\.mice\.byModel\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -3496,6 +3916,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.pointer\.mice\.byPci\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.pointer\.mice\.bySys
 
 Mapping from /sys path to device\.
@@ -3567,6 +3999,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.pointer\.mice\.bySys\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -3676,6 +4120,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.sound\.cards\.byDev\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.sound\.cards\.byModel
 
 Devices sorted by model in descending alphabetical order\.
@@ -3741,6 +4197,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.sound\.cards\.byModel\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -3826,6 +4294,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.sound\.cards\.byPci\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.sound\.cards\.bySys
 
 Mapping from /sys path to device\.
@@ -3897,6 +4377,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.sound\.cards\.bySys\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -4012,6 +4504,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.typer\.keyboards\.byDev\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.typer\.keyboards\.byModel
 
 Devices sorted by model in descending alphabetical order\.
@@ -4077,6 +4581,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.typer\.keyboards\.byModel\.\*\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
@@ -4162,6 +4678,18 @@ _Default:_
 null
 ```
 
+## hardware\.facter\.detection\.typer\.keyboards\.byPci\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
+
+_Default:_
+
+```nix
+null
+```
+
 ## hardware\.facter\.detection\.typer\.keyboards\.bySys
 
 Mapping from /sys path to device\.
@@ -4233,6 +4761,18 @@ null
 Device /sys path\.
 
 _Type:_ null or absolute path
+
+_Default:_
+
+```nix
+null
+```
+
+## hardware\.facter\.detection\.typer\.keyboards\.bySys\.\<name>\.unix
+
+UNIX device name\.
+
+_Type:_ null or string
 
 _Default:_
 
