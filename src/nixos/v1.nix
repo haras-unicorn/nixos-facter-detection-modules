@@ -31,6 +31,13 @@
             selfLib.sys.sysfsBusIdToPciId device.sysfs_bus_id
           else
             null;
+        unix =
+          if device ? unix_device_name then
+            device.unix_device_name
+          else if device ? unix_device_names then
+            builtins.head device.unix_device_names
+          else
+            null;
       };
     in
     {
@@ -97,15 +104,18 @@
           network = {
             interfaces =
               let
-                reportInterfaces = lib.filter (interface: interface.unix_device_name != "lo") (
+                reportInterfaces = lib.filter (interface: (makeGenericDevice interface).unix != "lo") (
                   hardware.network_interface or [ ]
                 );
 
                 interfaces = builtins.map (
                   interface:
-                  (makeGenericDevice interface)
+                  let
+                    generic = makeGenericDevice interface;
+                  in
+                  generic
                   // {
-                    name = interface.unix_device_name;
+                    name = generic.unix;
                   }
                 ) reportInterfaces;
               in
@@ -113,7 +123,7 @@
                 byModel = interfaces;
                 byName = builtins.listToAttrs (
                   builtins.map (interface: {
-                    name = interface.name;
+                    name = interface.unix;
                     value = interface;
                   }) interfaces
                 );
@@ -137,6 +147,8 @@
                     "amd"
                   else if builtins.match ".*i915.*" (graphicsCard.driver or "") != null then
                     "intel"
+                  else if builtins.match ".*dxgkrnl.*" (graphicsCard.driver or "") != null then
+                    "dxgkrnl"
                   else
                     "unknown";
 

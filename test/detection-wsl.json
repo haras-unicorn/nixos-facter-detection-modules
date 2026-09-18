@@ -1,0 +1,1283 @@
+{
+  "bluetooth": {
+    "enable": false,
+    "receivers": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "capabilities": {
+    "graphics": false,
+    "interaction": false,
+    "listening": false,
+    "pointing": false,
+    "sound": false,
+    "typing": false
+  },
+  "cpu": { "cores": 6, "threads": 16, "type": "amd" },
+  "disks": {
+    "byDev": {
+      "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "pci": null,
+        "size": 1099511627776,
+        "sys": "/sys/class/block/sdd",
+        "unix": "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b"
+      },
+      "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "pci": null,
+        "size": 8589938688,
+        "sys": "/sys/class/block/sdc",
+        "unix": "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd"
+      },
+      "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 374251520,
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa"
+      },
+      "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "pci": null,
+        "size": 167149568,
+        "sys": "/sys/class/block/sdb",
+        "unix": "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1"
+      },
+      "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "pci": null,
+        "size": 1099511627776,
+        "sys": "/sys/class/block/sdd",
+        "unix": "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b"
+      },
+      "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "pci": null,
+        "size": 8589938688,
+        "sys": "/sys/class/block/sdc",
+        "unix": "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd"
+      },
+      "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 374251520,
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa"
+      },
+      "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "pci": null,
+        "size": 167149568,
+        "sys": "/sys/class/block/sdb",
+        "unix": "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1"
+      },
+      "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 374251520,
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa"
+      },
+      "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "pci": null,
+        "size": 167149568,
+        "sys": "/sys/class/block/sdb",
+        "unix": "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1"
+      },
+      "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "pci": null,
+        "size": 8589938688,
+        "sys": "/sys/class/block/sdc",
+        "unix": "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd"
+      },
+      "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "pci": null,
+        "size": 1099511627776,
+        "sys": "/sys/class/block/sdd",
+        "unix": "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b"
+      },
+      "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "pci": null,
+        "size": 8589938688,
+        "sys": "/sys/class/block/sdc",
+        "unix": "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd"
+      },
+      "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "pci": null,
+        "size": 1099511627776,
+        "sys": "/sys/class/block/sdd",
+        "unix": "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b"
+      },
+      "/dev/ram0": {
+        "dev": ["/dev/ram0"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram0"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram0",
+        "unix": "/dev/ram0"
+      },
+      "/dev/ram1": {
+        "dev": ["/dev/ram1"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram1"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram1",
+        "unix": "/dev/ram1"
+      },
+      "/dev/ram10": {
+        "dev": ["/dev/ram10"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram10"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram10",
+        "unix": "/dev/ram10"
+      },
+      "/dev/ram11": {
+        "dev": ["/dev/ram11"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram11"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram11",
+        "unix": "/dev/ram11"
+      },
+      "/dev/ram12": {
+        "dev": ["/dev/ram12"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram12"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram12",
+        "unix": "/dev/ram12"
+      },
+      "/dev/ram13": {
+        "dev": ["/dev/ram13"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram13"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram13",
+        "unix": "/dev/ram13"
+      },
+      "/dev/ram14": {
+        "dev": ["/dev/ram14"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram14"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram14",
+        "unix": "/dev/ram14"
+      },
+      "/dev/ram15": {
+        "dev": ["/dev/ram15"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram15"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram15",
+        "unix": "/dev/ram15"
+      },
+      "/dev/ram2": {
+        "dev": ["/dev/ram2"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram2"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram2",
+        "unix": "/dev/ram2"
+      },
+      "/dev/ram3": {
+        "dev": ["/dev/ram3"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram3"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram3",
+        "unix": "/dev/ram3"
+      },
+      "/dev/ram4": {
+        "dev": ["/dev/ram4"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram4"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram4",
+        "unix": "/dev/ram4"
+      },
+      "/dev/ram5": {
+        "dev": ["/dev/ram5"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram5"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram5",
+        "unix": "/dev/ram5"
+      },
+      "/dev/ram6": {
+        "dev": ["/dev/ram6"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram6"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram6",
+        "unix": "/dev/ram6"
+      },
+      "/dev/ram7": {
+        "dev": ["/dev/ram7"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram7"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram7",
+        "unix": "/dev/ram7"
+      },
+      "/dev/ram8": {
+        "dev": ["/dev/ram8"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram8"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram8",
+        "unix": "/dev/ram8"
+      },
+      "/dev/ram9": {
+        "dev": ["/dev/ram9"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram9"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram9",
+        "unix": "/dev/ram9"
+      },
+      "/dev/sda": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 374251520,
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa"
+      },
+      "/dev/sdb": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "pci": null,
+        "size": 167149568,
+        "sys": "/sys/class/block/sdb",
+        "unix": "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1"
+      },
+      "/dev/sdc": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "pci": null,
+        "size": 8589938688,
+        "sys": "/sys/class/block/sdc",
+        "unix": "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd"
+      },
+      "/dev/sdd": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "pci": null,
+        "size": 1099511627776,
+        "sys": "/sys/class/block/sdd",
+        "unix": "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b"
+      }
+    },
+    "byModel": [
+      {
+        "dev": ["/dev/ram2"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram2"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram2",
+        "unix": "/dev/ram2"
+      },
+      {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "pci": null,
+        "size": 1099511627776,
+        "sys": "/sys/class/block/sdd",
+        "unix": "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b"
+      },
+      {
+        "dev": ["/dev/ram0"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram0"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram0",
+        "unix": "/dev/ram0"
+      },
+      {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "pci": null,
+        "size": 167149568,
+        "sys": "/sys/class/block/sdb",
+        "unix": "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1"
+      },
+      {
+        "dev": ["/dev/ram9"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram9"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram9",
+        "unix": "/dev/ram9"
+      },
+      {
+        "dev": ["/dev/ram14"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram14"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram14",
+        "unix": "/dev/ram14"
+      },
+      {
+        "dev": ["/dev/ram7"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram7"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram7",
+        "unix": "/dev/ram7"
+      },
+      {
+        "dev": ["/dev/ram12"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram12"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram12",
+        "unix": "/dev/ram12"
+      },
+      {
+        "dev": ["/dev/ram5"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram5"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram5",
+        "unix": "/dev/ram5"
+      },
+      {
+        "dev": ["/dev/ram10"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram10"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram10",
+        "unix": "/dev/ram10"
+      },
+      {
+        "dev": ["/dev/ram3"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram3"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram3",
+        "unix": "/dev/ram3"
+      },
+      {
+        "dev": ["/dev/ram1"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram1"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram1",
+        "unix": "/dev/ram1"
+      },
+      {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "pci": null,
+        "size": 8589938688,
+        "sys": "/sys/class/block/sdc",
+        "unix": "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd"
+      },
+      {
+        "dev": ["/dev/ram15"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram15"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram15",
+        "unix": "/dev/ram15"
+      },
+      {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 374251520,
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa"
+      },
+      {
+        "dev": ["/dev/ram8"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram8"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram8",
+        "unix": "/dev/ram8"
+      },
+      {
+        "dev": ["/dev/ram13"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram13"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram13",
+        "unix": "/dev/ram13"
+      },
+      {
+        "dev": ["/dev/ram6"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram6"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram6",
+        "unix": "/dev/ram6"
+      },
+      {
+        "dev": ["/dev/ram11"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram11"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram11",
+        "unix": "/dev/ram11"
+      },
+      {
+        "dev": ["/dev/ram4"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram4"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram4",
+        "unix": "/dev/ram4"
+      }
+    ],
+    "byMount": {},
+    "byPci": {},
+    "bySys": {
+      "/sys/class/block/ram0": {
+        "dev": ["/dev/ram0"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram0"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram0",
+        "unix": "/dev/ram0"
+      },
+      "/sys/class/block/ram1": {
+        "dev": ["/dev/ram1"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram1"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram1",
+        "unix": "/dev/ram1"
+      },
+      "/sys/class/block/ram10": {
+        "dev": ["/dev/ram10"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram10"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram10",
+        "unix": "/dev/ram10"
+      },
+      "/sys/class/block/ram11": {
+        "dev": ["/dev/ram11"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram11"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram11",
+        "unix": "/dev/ram11"
+      },
+      "/sys/class/block/ram12": {
+        "dev": ["/dev/ram12"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram12"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram12",
+        "unix": "/dev/ram12"
+      },
+      "/sys/class/block/ram13": {
+        "dev": ["/dev/ram13"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram13"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram13",
+        "unix": "/dev/ram13"
+      },
+      "/sys/class/block/ram14": {
+        "dev": ["/dev/ram14"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram14"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram14",
+        "unix": "/dev/ram14"
+      },
+      "/sys/class/block/ram15": {
+        "dev": ["/dev/ram15"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram15"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram15",
+        "unix": "/dev/ram15"
+      },
+      "/sys/class/block/ram2": {
+        "dev": ["/dev/ram2"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram2"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram2",
+        "unix": "/dev/ram2"
+      },
+      "/sys/class/block/ram3": {
+        "dev": ["/dev/ram3"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram3"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram3",
+        "unix": "/dev/ram3"
+      },
+      "/sys/class/block/ram4": {
+        "dev": ["/dev/ram4"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram4"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram4",
+        "unix": "/dev/ram4"
+      },
+      "/sys/class/block/ram5": {
+        "dev": ["/dev/ram5"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram5"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram5",
+        "unix": "/dev/ram5"
+      },
+      "/sys/class/block/ram6": {
+        "dev": ["/dev/ram6"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram6"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram6",
+        "unix": "/dev/ram6"
+      },
+      "/sys/class/block/ram7": {
+        "dev": ["/dev/ram7"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram7"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram7",
+        "unix": "/dev/ram7"
+      },
+      "/sys/class/block/ram8": {
+        "dev": ["/dev/ram8"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram8"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram8",
+        "unix": "/dev/ram8"
+      },
+      "/sys/class/block/ram9": {
+        "dev": ["/dev/ram9"],
+        "model": "Disk",
+        "modules": [],
+        "mounts": [],
+        "paths": ["/dev/ram9"],
+        "pci": null,
+        "size": 4194304,
+        "sys": "/sys/class/block/ram9",
+        "unix": "/dev/ram9"
+      },
+      "/sys/class/block/sda": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-id/wwn-0x60022480df18deb7e179255b7b21f6fa",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-0",
+          "/dev/sda"
+        ],
+        "pci": null,
+        "size": 374251520,
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/disk/by-id/scsi-360022480df18deb7e179255b7b21f6fa"
+      },
+      "/sys/class/block/sdb": {
+        "dev": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-id/wwn-0x60022480e63378b2d3a4a263252875a1",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-1",
+          "/dev/sdb"
+        ],
+        "pci": null,
+        "size": 167149568,
+        "sys": "/sys/class/block/sdb",
+        "unix": "/dev/disk/by-id/scsi-360022480e63378b2d3a4a263252875a1"
+      },
+      "/sys/class/block/sdc": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-id/wwn-0x600224809ee553408c2825d04c21f1dd",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-2",
+          "/dev/disk/by-uuid/2115ea9e-ef4c-4e2d-985a-fd0eec2e0064",
+          "/dev/sdc"
+        ],
+        "pci": null,
+        "size": 8589938688,
+        "sys": "/sys/class/block/sdc",
+        "unix": "/dev/disk/by-id/scsi-3600224809ee553408c2825d04c21f1dd"
+      },
+      "/sys/class/block/sdd": {
+        "dev": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "model": "Msft Virtual Disk",
+        "modules": ["hv_storvsc"],
+        "mounts": [],
+        "paths": [
+          "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-id/wwn-0x600224806d5133c78557ba74dcaaee5b",
+          "/dev/disk/by-path/acpi-VMBUS:00-vmbus-fd1d2cbdce7c535c966beb5f811c95f0-lun-3",
+          "/dev/disk/by-uuid/b17bcbfb-0ff9-4977-a52d-d7f2f7d804cc",
+          "/dev/sdd"
+        ],
+        "pci": null,
+        "size": 1099511627776,
+        "sys": "/sys/class/block/sdd",
+        "unix": "/dev/disk/by-id/scsi-3600224806d5133c78557ba74dcaaee5b"
+      }
+    }
+  },
+  "graphics": {
+    "cards": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "3D controller",
+          "modules": ["dxgkrnl", "dxgkrnl"],
+          "open": false,
+          "pci": "PCI:0:0:0",
+          "sys": "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/34bd0ebc-9795-43c5-8a0b-b27a0c752ca7/pci9795:00/9795:00:00.0",
+          "type": "dxgkrnl",
+          "unix": null,
+          "version": "unknown",
+          "wayland": true
+        }
+      ],
+      "byPci": {
+        "PCI:0:0:0": {
+          "dev": [],
+          "model": "3D controller",
+          "modules": ["dxgkrnl", "dxgkrnl"],
+          "open": false,
+          "pci": "PCI:0:0:0",
+          "sys": "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/34bd0ebc-9795-43c5-8a0b-b27a0c752ca7/pci9795:00/9795:00:00.0",
+          "type": "dxgkrnl",
+          "unix": null,
+          "version": "unknown",
+          "wayland": true
+        }
+      },
+      "byPort": {},
+      "bySys": {
+        "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/34bd0ebc-9795-43c5-8a0b-b27a0c752ca7/pci9795:00/9795:00:00.0": {
+          "dev": [],
+          "model": "3D controller",
+          "modules": ["dxgkrnl", "dxgkrnl"],
+          "open": false,
+          "pci": "PCI:0:0:0",
+          "sys": "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/34bd0ebc-9795-43c5-8a0b-b27a0c752ca7/pci9795:00/9795:00:00.0",
+          "type": "dxgkrnl",
+          "unix": null,
+          "version": "unknown",
+          "wayland": true
+        }
+      },
+      "byVram": [
+        {
+          "dev": [],
+          "model": "3D controller",
+          "modules": ["dxgkrnl", "dxgkrnl"],
+          "open": false,
+          "pci": "PCI:0:0:0",
+          "sys": "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/34bd0ebc-9795-43c5-8a0b-b27a0c752ca7/pci9795:00/9795:00:00.0",
+          "type": "dxgkrnl",
+          "unix": null,
+          "version": "unknown",
+          "wayland": true
+        }
+      ],
+      "default": {
+        "dev": [],
+        "model": "3D controller",
+        "modules": ["dxgkrnl", "dxgkrnl"],
+        "open": false,
+        "pci": "PCI:0:0:0",
+        "sys": "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/34bd0ebc-9795-43c5-8a0b-b27a0c752ca7/pci9795:00/9795:00:00.0",
+        "type": "dxgkrnl",
+        "unix": null,
+        "version": "unknown",
+        "wayland": true
+      },
+      "integrated": null
+    },
+    "enable": true
+  },
+  "logitech": {
+    "enable": false,
+    "receivers": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "memory": { "size": 34359738368 },
+  "monitor": {
+    "displays": {
+      "byDev": {},
+      "byModel": [],
+      "byPci": {},
+      "bySize": [],
+      "bySys": {},
+      "default": null
+    },
+    "enable": false
+  },
+  "network": {
+    "enable": true,
+    "interfaces": {
+      "byDev": {},
+      "byModel": [
+        {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["hv_netvsc"],
+          "name": "eth0",
+          "pci": null,
+          "sys": "/sys/class/net/eth0",
+          "unix": "eth0"
+        }
+      ],
+      "byName": {
+        "eth0": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["hv_netvsc"],
+          "name": "eth0",
+          "pci": null,
+          "sys": "/sys/class/net/eth0",
+          "unix": "eth0"
+        }
+      },
+      "byPci": {},
+      "bySys": {
+        "/sys/class/net/eth0": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["hv_netvsc"],
+          "name": "eth0",
+          "pci": null,
+          "sys": "/sys/class/net/eth0",
+          "unix": "eth0"
+        }
+      },
+      "default": {
+        "dev": [],
+        "model": "Ethernet network interface",
+        "modules": ["hv_netvsc"],
+        "name": "eth0",
+        "pci": null,
+        "sys": "/sys/class/net/eth0",
+        "unix": "eth0"
+      }
+    }
+  },
+  "pointer": {
+    "enable": false,
+    "mice": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "sound": {
+    "cards": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} },
+    "enable": false
+  },
+  "system": "x86_64-linux",
+  "typer": {
+    "enable": false,
+    "keyboards": { "byDev": {}, "byModel": [], "byPci": {}, "bySys": {} }
+  },
+  "version": 1,
+  "virtualisation": "wsl"
+}

@@ -36,7 +36,8 @@
         ],
         "pci": null,
         "size": 1024209543168,
-        "sys": "/sys/class/block/sda"
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/sda"
       },
       "/dev/disk/by-id/ata-SSD_1TB_202305030109": {
         "dev": [
@@ -60,7 +61,8 @@
         ],
         "pci": null,
         "size": 1024209543168,
-        "sys": "/sys/class/block/sda"
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/sda"
       },
       "/dev/disk/by-id/usb-ICY_BOX_IB-200T-C3_1333092702C3-0:0": {
         "dev": [
@@ -84,7 +86,8 @@
         ],
         "pci": null,
         "size": 1024209543168,
-        "sys": "/sys/class/block/sda"
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/sda"
       },
       "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1:1.0-scsi-0:0:0:0": {
         "dev": [
@@ -108,7 +111,8 @@
         ],
         "pci": null,
         "size": 1024209543168,
-        "sys": "/sys/class/block/sda"
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/sda"
       },
       "/dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usbv3-0:1:1.0-scsi-0:0:0:0": {
         "dev": [
@@ -132,7 +136,8 @@
         ],
         "pci": null,
         "size": 1024209543168,
-        "sys": "/sys/class/block/sda"
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/sda"
       },
       "/dev/ram0": {
         "dev": ["/dev/ram0"],
@@ -142,7 +147,8 @@
         "paths": ["/dev/ram0"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram0"
+        "sys": "/sys/class/block/ram0",
+        "unix": "/dev/ram0"
       },
       "/dev/ram1": {
         "dev": ["/dev/ram1"],
@@ -152,7 +158,8 @@
         "paths": ["/dev/ram1"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram1"
+        "sys": "/sys/class/block/ram1",
+        "unix": "/dev/ram1"
       },
       "/dev/ram10": {
         "dev": ["/dev/ram10"],
@@ -162,7 +169,8 @@
         "paths": ["/dev/ram10"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram10"
+        "sys": "/sys/class/block/ram10",
+        "unix": "/dev/ram10"
       },
       "/dev/ram11": {
         "dev": ["/dev/ram11"],
@@ -172,7 +180,8 @@
         "paths": ["/dev/ram11"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram11"
+        "sys": "/sys/class/block/ram11",
+        "unix": "/dev/ram11"
       },
       "/dev/ram12": {
         "dev": ["/dev/ram12"],
@@ -182,7 +191,8 @@
         "paths": ["/dev/ram12"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram12"
+        "sys": "/sys/class/block/ram12",
+        "unix": "/dev/ram12"
       },
       "/dev/ram13": {
         "dev": ["/dev/ram13"],
@@ -192,7 +202,8 @@
         "paths": ["/dev/ram13"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram13"
+        "sys": "/sys/class/block/ram13",
+        "unix": "/dev/ram13"
       },
       "/dev/ram14": {
         "dev": ["/dev/ram14"],
@@ -202,7 +213,8 @@
         "paths": ["/dev/ram14"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram14"
+        "sys": "/sys/class/block/ram14",
+        "unix": "/dev/ram14"
       },
       "/dev/ram15": {
         "dev": ["/dev/ram15"],
@@ -212,7 +224,8 @@
         "paths": ["/dev/ram15"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram15"
+        "sys": "/sys/class/block/ram15",
+        "unix": "/dev/ram15"
       },
       "/dev/ram2": {
         "dev": ["/dev/ram2"],
@@ -222,7 +235,8 @@
         "paths": ["/dev/ram2"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram2"
+        "sys": "/sys/class/block/ram2",
+        "unix": "/dev/ram2"
       },
       "/dev/ram3": {
         "dev": ["/dev/ram3"],
@@ -232,7 +246,8 @@
         "paths": ["/dev/ram3"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram3"
+        "sys": "/sys/class/block/ram3",
+        "unix": "/dev/ram3"
       },
       "/dev/ram4": {
         "dev": ["/dev/ram4"],
@@ -242,7 +257,8 @@
         "paths": ["/dev/ram4"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram4"
+        "sys": "/sys/class/block/ram4",
+        "unix": "/dev/ram4"
       },
       "/dev/ram5": {
         "dev": ["/dev/ram5"],
@@ -252,7 +268,8 @@
         "paths": ["/dev/ram5"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram5"
+        "sys": "/sys/class/block/ram5",
+        "unix": "/dev/ram5"
       },
       "/dev/ram6": {
         "dev": ["/dev/ram6"],
@@ -262,7 +279,8 @@
         "paths": ["/dev/ram6"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram6"
+        "sys": "/sys/class/block/ram6",
+        "unix": "/dev/ram6"
       },
       "/dev/ram7": {
         "dev": ["/dev/ram7"],
@@ -272,7 +290,8 @@
         "paths": ["/dev/ram7"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram7"
+        "sys": "/sys/class/block/ram7",
+        "unix": "/dev/ram7"
       },
       "/dev/ram8": {
         "dev": ["/dev/ram8"],
@@ -282,7 +301,8 @@
         "paths": ["/dev/ram8"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram8"
+        "sys": "/sys/class/block/ram8",
+        "unix": "/dev/ram8"
       },
       "/dev/ram9": {
         "dev": ["/dev/ram9"],
@@ -292,7 +312,8 @@
         "paths": ["/dev/ram9"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram9"
+        "sys": "/sys/class/block/ram9",
+        "unix": "/dev/ram9"
       },
       "/dev/sda": {
         "dev": [
@@ -316,7 +337,8 @@
         ],
         "pci": null,
         "size": 1024209543168,
-        "sys": "/sys/class/block/sda"
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/sda"
       }
     },
     "byModel": [
@@ -328,7 +350,8 @@
         "paths": ["/dev/ram2"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram2"
+        "sys": "/sys/class/block/ram2",
+        "unix": "/dev/ram2"
       },
       {
         "dev": ["/dev/ram0"],
@@ -338,7 +361,8 @@
         "paths": ["/dev/ram0"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram0"
+        "sys": "/sys/class/block/ram0",
+        "unix": "/dev/ram0"
       },
       {
         "dev": ["/dev/ram9"],
@@ -348,7 +372,8 @@
         "paths": ["/dev/ram9"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram9"
+        "sys": "/sys/class/block/ram9",
+        "unix": "/dev/ram9"
       },
       {
         "dev": ["/dev/ram14"],
@@ -358,7 +383,8 @@
         "paths": ["/dev/ram14"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram14"
+        "sys": "/sys/class/block/ram14",
+        "unix": "/dev/ram14"
       },
       {
         "dev": ["/dev/ram7"],
@@ -368,7 +394,8 @@
         "paths": ["/dev/ram7"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram7"
+        "sys": "/sys/class/block/ram7",
+        "unix": "/dev/ram7"
       },
       {
         "dev": ["/dev/ram12"],
@@ -378,7 +405,8 @@
         "paths": ["/dev/ram12"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram12"
+        "sys": "/sys/class/block/ram12",
+        "unix": "/dev/ram12"
       },
       {
         "dev": ["/dev/ram5"],
@@ -388,7 +416,8 @@
         "paths": ["/dev/ram5"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram5"
+        "sys": "/sys/class/block/ram5",
+        "unix": "/dev/ram5"
       },
       {
         "dev": ["/dev/ram10"],
@@ -398,7 +427,8 @@
         "paths": ["/dev/ram10"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram10"
+        "sys": "/sys/class/block/ram10",
+        "unix": "/dev/ram10"
       },
       {
         "dev": ["/dev/ram3"],
@@ -408,7 +438,8 @@
         "paths": ["/dev/ram3"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram3"
+        "sys": "/sys/class/block/ram3",
+        "unix": "/dev/ram3"
       },
       {
         "dev": ["/dev/ram1"],
@@ -418,7 +449,8 @@
         "paths": ["/dev/ram1"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram1"
+        "sys": "/sys/class/block/ram1",
+        "unix": "/dev/ram1"
       },
       {
         "dev": ["/dev/ram15"],
@@ -428,7 +460,8 @@
         "paths": ["/dev/ram15"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram15"
+        "sys": "/sys/class/block/ram15",
+        "unix": "/dev/ram15"
       },
       {
         "dev": [
@@ -452,7 +485,8 @@
         ],
         "pci": null,
         "size": 1024209543168,
-        "sys": "/sys/class/block/sda"
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/sda"
       },
       {
         "dev": ["/dev/ram8"],
@@ -462,7 +496,8 @@
         "paths": ["/dev/ram8"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram8"
+        "sys": "/sys/class/block/ram8",
+        "unix": "/dev/ram8"
       },
       {
         "dev": ["/dev/ram13"],
@@ -472,7 +507,8 @@
         "paths": ["/dev/ram13"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram13"
+        "sys": "/sys/class/block/ram13",
+        "unix": "/dev/ram13"
       },
       {
         "dev": ["/dev/ram6"],
@@ -482,7 +518,8 @@
         "paths": ["/dev/ram6"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram6"
+        "sys": "/sys/class/block/ram6",
+        "unix": "/dev/ram6"
       },
       {
         "dev": ["/dev/ram11"],
@@ -492,7 +529,8 @@
         "paths": ["/dev/ram11"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram11"
+        "sys": "/sys/class/block/ram11",
+        "unix": "/dev/ram11"
       },
       {
         "dev": ["/dev/ram4"],
@@ -502,7 +540,8 @@
         "paths": ["/dev/ram4"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram4"
+        "sys": "/sys/class/block/ram4",
+        "unix": "/dev/ram4"
       }
     ],
     "byMount": {},
@@ -516,7 +555,8 @@
         "paths": ["/dev/ram0"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram0"
+        "sys": "/sys/class/block/ram0",
+        "unix": "/dev/ram0"
       },
       "/sys/class/block/ram1": {
         "dev": ["/dev/ram1"],
@@ -526,7 +566,8 @@
         "paths": ["/dev/ram1"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram1"
+        "sys": "/sys/class/block/ram1",
+        "unix": "/dev/ram1"
       },
       "/sys/class/block/ram10": {
         "dev": ["/dev/ram10"],
@@ -536,7 +577,8 @@
         "paths": ["/dev/ram10"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram10"
+        "sys": "/sys/class/block/ram10",
+        "unix": "/dev/ram10"
       },
       "/sys/class/block/ram11": {
         "dev": ["/dev/ram11"],
@@ -546,7 +588,8 @@
         "paths": ["/dev/ram11"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram11"
+        "sys": "/sys/class/block/ram11",
+        "unix": "/dev/ram11"
       },
       "/sys/class/block/ram12": {
         "dev": ["/dev/ram12"],
@@ -556,7 +599,8 @@
         "paths": ["/dev/ram12"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram12"
+        "sys": "/sys/class/block/ram12",
+        "unix": "/dev/ram12"
       },
       "/sys/class/block/ram13": {
         "dev": ["/dev/ram13"],
@@ -566,7 +610,8 @@
         "paths": ["/dev/ram13"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram13"
+        "sys": "/sys/class/block/ram13",
+        "unix": "/dev/ram13"
       },
       "/sys/class/block/ram14": {
         "dev": ["/dev/ram14"],
@@ -576,7 +621,8 @@
         "paths": ["/dev/ram14"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram14"
+        "sys": "/sys/class/block/ram14",
+        "unix": "/dev/ram14"
       },
       "/sys/class/block/ram15": {
         "dev": ["/dev/ram15"],
@@ -586,7 +632,8 @@
         "paths": ["/dev/ram15"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram15"
+        "sys": "/sys/class/block/ram15",
+        "unix": "/dev/ram15"
       },
       "/sys/class/block/ram2": {
         "dev": ["/dev/ram2"],
@@ -596,7 +643,8 @@
         "paths": ["/dev/ram2"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram2"
+        "sys": "/sys/class/block/ram2",
+        "unix": "/dev/ram2"
       },
       "/sys/class/block/ram3": {
         "dev": ["/dev/ram3"],
@@ -606,7 +654,8 @@
         "paths": ["/dev/ram3"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram3"
+        "sys": "/sys/class/block/ram3",
+        "unix": "/dev/ram3"
       },
       "/sys/class/block/ram4": {
         "dev": ["/dev/ram4"],
@@ -616,7 +665,8 @@
         "paths": ["/dev/ram4"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram4"
+        "sys": "/sys/class/block/ram4",
+        "unix": "/dev/ram4"
       },
       "/sys/class/block/ram5": {
         "dev": ["/dev/ram5"],
@@ -626,7 +676,8 @@
         "paths": ["/dev/ram5"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram5"
+        "sys": "/sys/class/block/ram5",
+        "unix": "/dev/ram5"
       },
       "/sys/class/block/ram6": {
         "dev": ["/dev/ram6"],
@@ -636,7 +687,8 @@
         "paths": ["/dev/ram6"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram6"
+        "sys": "/sys/class/block/ram6",
+        "unix": "/dev/ram6"
       },
       "/sys/class/block/ram7": {
         "dev": ["/dev/ram7"],
@@ -646,7 +698,8 @@
         "paths": ["/dev/ram7"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram7"
+        "sys": "/sys/class/block/ram7",
+        "unix": "/dev/ram7"
       },
       "/sys/class/block/ram8": {
         "dev": ["/dev/ram8"],
@@ -656,7 +709,8 @@
         "paths": ["/dev/ram8"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram8"
+        "sys": "/sys/class/block/ram8",
+        "unix": "/dev/ram8"
       },
       "/sys/class/block/ram9": {
         "dev": ["/dev/ram9"],
@@ -666,7 +720,8 @@
         "paths": ["/dev/ram9"],
         "pci": null,
         "size": 4194304,
-        "sys": "/sys/class/block/ram9"
+        "sys": "/sys/class/block/ram9",
+        "unix": "/dev/ram9"
       },
       "/sys/class/block/sda": {
         "dev": [
@@ -690,7 +745,8 @@
         ],
         "pci": null,
         "size": 1024209543168,
-        "sys": "/sys/class/block/sda"
+        "sys": "/sys/class/block/sda",
+        "unix": "/dev/sda"
       }
     }
   },
@@ -734,7 +790,8 @@
           "modules": ["brcmfmac", "brcmfmac", "brcmfmac"],
           "name": "wlan0",
           "pci": null,
-          "sys": "/sys/class/net/wlan0"
+          "sys": "/sys/class/net/wlan0",
+          "unix": "wlan0"
         },
         {
           "dev": [],
@@ -742,7 +799,8 @@
           "modules": [],
           "name": "end0",
           "pci": null,
-          "sys": "/sys/class/net/end0"
+          "sys": "/sys/class/net/end0",
+          "unix": "end0"
         }
       ],
       "byName": {
@@ -752,7 +810,8 @@
           "modules": [],
           "name": "end0",
           "pci": null,
-          "sys": "/sys/class/net/end0"
+          "sys": "/sys/class/net/end0",
+          "unix": "end0"
         },
         "wlan0": {
           "dev": [],
@@ -760,7 +819,8 @@
           "modules": ["brcmfmac", "brcmfmac", "brcmfmac"],
           "name": "wlan0",
           "pci": null,
-          "sys": "/sys/class/net/wlan0"
+          "sys": "/sys/class/net/wlan0",
+          "unix": "wlan0"
         }
       },
       "byPci": {},
@@ -771,7 +831,8 @@
           "modules": [],
           "name": "end0",
           "pci": null,
-          "sys": "/sys/class/net/end0"
+          "sys": "/sys/class/net/end0",
+          "unix": "end0"
         },
         "/sys/class/net/wlan0": {
           "dev": [],
@@ -779,7 +840,8 @@
           "modules": ["brcmfmac", "brcmfmac", "brcmfmac"],
           "name": "wlan0",
           "pci": null,
-          "sys": "/sys/class/net/wlan0"
+          "sys": "/sys/class/net/wlan0",
+          "unix": "wlan0"
         }
       },
       "default": {
@@ -788,7 +850,8 @@
         "modules": ["brcmfmac", "brcmfmac", "brcmfmac"],
         "name": "wlan0",
         "pci": null,
-        "sys": "/sys/class/net/wlan0"
+        "sys": "/sys/class/net/wlan0",
+        "unix": "wlan0"
       }
     }
   },

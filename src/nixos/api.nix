@@ -62,6 +62,14 @@
               Device /dev paths.
             '';
           };
+
+          unix = lib.mkOption {
+            type = lib.types.nullOr lib.types.str;
+            default = null;
+            description = ''
+              UNIX device name.
+            '';
+          };
         };
       };
 
@@ -114,6 +122,7 @@
               "intel"
               "amd"
               "nvidia"
+              "dxgkrnl"
             ];
             description = ''
               Graphics card type.

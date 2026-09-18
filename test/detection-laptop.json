@@ -9,21 +9,24 @@
           "model": "MediaTek Wireless_Device",
           "modules": ["btusb"],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1",
+          "unix": null
         },
         {
           "dev": [],
           "model": "MediaTek Wireless_Device",
           "modules": [],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2",
+          "unix": null
         },
         {
           "dev": [],
           "model": "MediaTek Wireless_Device",
           "modules": ["btusb"],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0",
+          "unix": null
         }
       ],
       "byPci": {},
@@ -33,21 +36,24 @@
           "model": "MediaTek Wireless_Device",
           "modules": ["btusb"],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0",
+          "unix": null
         },
         "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1": {
           "dev": [],
           "model": "MediaTek Wireless_Device",
           "modules": ["btusb"],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1",
+          "unix": null
         },
         "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2": {
           "dev": [],
           "model": "MediaTek Wireless_Device",
           "modules": [],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2",
+          "unix": null
         }
       }
     }
@@ -85,7 +91,8 @@
         ],
         "pci": null,
         "size": 512110190592,
-        "sys": "/sys/class/block/nvme0n1"
+        "sys": "/sys/class/block/nvme0n1",
+        "unix": "/dev/nvme0n1"
       },
       "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O": {
         "dev": [
@@ -109,7 +116,8 @@
         ],
         "pci": null,
         "size": 512110190592,
-        "sys": "/sys/class/block/nvme0n1"
+        "sys": "/sys/class/block/nvme0n1",
+        "unix": "/dev/nvme0n1"
       },
       "/dev/disk/by-id/nvme-HFM512GD3JX013N_FYA7N09161120834O_1": {
         "dev": [
@@ -133,7 +141,8 @@
         ],
         "pci": null,
         "size": 512110190592,
-        "sys": "/sys/class/block/nvme0n1"
+        "sys": "/sys/class/block/nvme0n1",
+        "unix": "/dev/nvme0n1"
       },
       "/dev/disk/by-id/nvme-nvme.1c5c-465941374e30393136313132303833344f-48464d3531324744334a583031334e-00000001": {
         "dev": [
@@ -157,7 +166,8 @@
         ],
         "pci": null,
         "size": 512110190592,
-        "sys": "/sys/class/block/nvme0n1"
+        "sys": "/sys/class/block/nvme0n1",
+        "unix": "/dev/nvme0n1"
       },
       "/dev/disk/by-path/pci-0000:02:00.0-nvme-1": {
         "dev": [
@@ -181,7 +191,8 @@
         ],
         "pci": null,
         "size": 512110190592,
-        "sys": "/sys/class/block/nvme0n1"
+        "sys": "/sys/class/block/nvme0n1",
+        "unix": "/dev/nvme0n1"
       },
       "/dev/nvme0n1": {
         "dev": [
@@ -205,7 +216,8 @@
         ],
         "pci": null,
         "size": 512110190592,
-        "sys": "/sys/class/block/nvme0n1"
+        "sys": "/sys/class/block/nvme0n1",
+        "unix": "/dev/nvme0n1"
       }
     },
     "byModel": [
@@ -231,7 +243,8 @@
         ],
         "pci": null,
         "size": 512110190592,
-        "sys": "/sys/class/block/nvme0n1"
+        "sys": "/sys/class/block/nvme0n1",
+        "unix": "/dev/nvme0n1"
       }
     ],
     "byMount": {},
@@ -259,7 +272,8 @@
         ],
         "pci": null,
         "size": 512110190592,
-        "sys": "/sys/class/block/nvme0n1"
+        "sys": "/sys/class/block/nvme0n1",
+        "unix": "/dev/nvme0n1"
       }
     }
   },
@@ -275,6 +289,7 @@
           "pci": null,
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
           "type": "amd",
+          "unix": null,
           "version": "unknown",
           "wayland": true
         }
@@ -290,6 +305,7 @@
           "pci": null,
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
           "type": "amd",
+          "unix": null,
           "version": "unknown",
           "wayland": true
         }
@@ -303,6 +319,7 @@
           "pci": null,
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
           "type": "amd",
+          "unix": null,
           "version": "unknown",
           "wayland": true
         }
@@ -315,6 +332,7 @@
         "pci": null,
         "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
         "type": "amd",
+        "unix": null,
         "version": "unknown",
         "wayland": true
       },
@@ -339,6 +357,7 @@
           "modules": [],
           "pci": null,
           "sys": null,
+          "unix": null,
           "width": 1920
         }
       ],
@@ -352,6 +371,7 @@
           "modules": [],
           "pci": null,
           "sys": null,
+          "unix": null,
           "width": 1920
         }
       ],
@@ -364,6 +384,7 @@
         "modules": [],
         "pci": null,
         "sys": null,
+        "unix": null,
         "width": 1920
       }
     },
@@ -380,7 +401,8 @@
           "modules": ["mt7921e"],
           "name": "wlp1s0",
           "pci": null,
-          "sys": "/sys/class/net/wlp1s0"
+          "sys": "/sys/class/net/wlp1s0",
+          "unix": "wlp1s0"
         }
       ],
       "byName": {
@@ -390,7 +412,8 @@
           "modules": ["mt7921e"],
           "name": "wlp1s0",
           "pci": null,
-          "sys": "/sys/class/net/wlp1s0"
+          "sys": "/sys/class/net/wlp1s0",
+          "unix": "wlp1s0"
         }
       },
       "byPci": {},
@@ -401,7 +424,8 @@
           "modules": ["mt7921e"],
           "name": "wlp1s0",
           "pci": null,
-          "sys": "/sys/class/net/wlp1s0"
+          "sys": "/sys/class/net/wlp1s0",
+          "unix": "wlp1s0"
         }
       },
       "default": {
@@ -410,7 +434,8 @@
         "modules": ["mt7921e"],
         "name": "wlp1s0",
         "pci": null,
-        "sys": "/sys/class/net/wlp1s0"
+        "sys": "/sys/class/net/wlp1s0",
+        "unix": "wlp1s0"
       }
     }
   },
@@ -427,14 +452,16 @@
           "model": "ATI Multimedia controller",
           "modules": ["snd_hda_intel"],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1",
+          "unix": null
         },
         {
           "dev": [],
           "model": "AMD Multimedia controller",
           "modules": ["snd_hda_intel"],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6",
+          "unix": null
         }
       ],
       "byPci": {},
@@ -444,14 +471,16 @@
           "model": "ATI Multimedia controller",
           "modules": ["snd_hda_intel"],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1",
+          "unix": null
         },
         "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6": {
           "dev": [],
           "model": "AMD Multimedia controller",
           "modules": ["snd_hda_intel"],
           "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6"
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6",
+          "unix": null
         }
       }
     },

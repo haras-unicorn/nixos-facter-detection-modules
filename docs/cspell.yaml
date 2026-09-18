@@ -5,3 +5,4 @@ language: en
 ignoreWords:
   - typer
   - virtualisation
+  - dxgkrnl
