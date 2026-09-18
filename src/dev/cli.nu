@@ -45,7 +45,10 @@ def "main lint" []: nothing -> nothing {
   cd (flake-root)
   prettier --check (flake-root)
   nixfmt --check ...(fd '.*.nix$' (flake-root) | lines)
-  markdownlint --ignore-path .gitignore (flake-root)
+  (markdownlint
+    --ignore-path .gitignore
+    --ignore-path .markdownignore
+    (flake-root))
   cspell lint (flake-root) --no-progress
   if $env.NIX_BUILD_TOP? == null {
     if (markdown-link-check

@@ -16,3 +16,4 @@ ignoreWords:
   - typer
   - virtualisation
   - dxgkrnl
+  - markdownignore
