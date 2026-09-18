@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/haras-unicorn/nixos-facter-detection-modules/compare/v1.0.0...v1.1.0) (2026-09-18)
+
+
+### Features
+
+* wsl support ([#6](https://github.com/haras-unicorn/nixos-facter-detection-modules/issues/6)) ([9cd02f5](https://github.com/haras-unicorn/nixos-facter-detection-modules/commit/9cd02f51286e176337fa2f77d45e02aae926790d))
+
+
+### Bug Fixes
+
+* markdownlint ignore changelog ([#8](https://github.com/haras-unicorn/nixos-facter-detection-modules/issues/8)) ([03b32d9](https://github.com/haras-unicorn/nixos-facter-detection-modules/commit/03b32d941d26f9ad89e5c4dfaa7b334d4ecfcd94))
+
 ## 1.0.0 (2026-07-01)
 
 
