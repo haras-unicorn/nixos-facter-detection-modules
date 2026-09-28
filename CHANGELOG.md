@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/haras-unicorn/nixos-facter-detection-modules/compare/v1.1.1...v1.1.2) (2026-09-28)
+
+
+### Bug Fixes
+
+* detect graphics by type ([#11](https://github.com/haras-unicorn/nixos-facter-detection-modules/issues/11)) ([ebd279e](https://github.com/haras-unicorn/nixos-facter-detection-modules/commit/ebd279e0ef2816cdd8ad6305061ddbc8fddecd1b))
+
 ## [1.1.1](https://github.com/haras-unicorn/nixos-facter-detection-modules/compare/v1.1.0...v1.1.1) (2026-09-28)
 
 
