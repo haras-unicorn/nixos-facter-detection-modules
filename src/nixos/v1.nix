@@ -166,11 +166,11 @@
                     (
                       graphicsCard:
                       (makeGenericDevice graphicsCard)
-                      // {
+                      // rec {
                         type = graphicsCardType graphicsCard;
 
                         version =
-                          if graphicsCard.driver != "nvidia" then
+                          if type != "nvidia" then
                             "unknown"
                           else if matchNvidiaGraphicsCardDriverList graphicsCard "open" then
                             "latest"
@@ -183,10 +183,9 @@
                           else
                             "production";
 
-                        open = graphicsCard.driver == "nvidia" && matchNvidiaGraphicsCardDriverList graphicsCard "open";
+                        open = type == "nvidia" && matchNvidiaGraphicsCardDriverList graphicsCard "open";
 
-                        wayland =
-                          !(graphicsCard.driver == "nvidia" && matchNvidiaGraphicsCardDriverList graphicsCard "legacy");
+                        wayland = !(type == "nvidia" && matchNvidiaGraphicsCardDriverList graphicsCard "legacy");
                       }
                     )
                     (
