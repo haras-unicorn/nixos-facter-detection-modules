@@ -1190,7 +1190,7 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”, “unknown”
 
 ## hardware\.facter\.detection\.graphics\.cards\.byDev\.\<name>\.unix
 
@@ -1298,7 +1298,7 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”, “unknown”
 
 ## hardware\.facter\.detection\.graphics\.cards\.byModel\.\*\.unix
 
@@ -1412,7 +1412,7 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”, “unknown”
 
 ## hardware\.facter\.detection\.graphics\.cards\.byPci\.\<name>\.unix
 
@@ -1526,7 +1526,7 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”, “unknown”
 
 ## hardware\.facter\.detection\.graphics\.cards\.byPort\.\<name>\.unix
 
@@ -1640,7 +1640,7 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”, “unknown”
 
 ## hardware\.facter\.detection\.graphics\.cards\.bySys\.\<name>\.unix
 
@@ -1748,7 +1748,7 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”, “unknown”
 
 ## hardware\.facter\.detection\.graphics\.cards\.byVram\.\*\.unix
 
@@ -1862,7 +1862,7 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”, “unknown”
 
 ## hardware\.facter\.detection\.graphics\.cards\.default\.unix
 
@@ -1976,7 +1976,7 @@ null
 
 Graphics card type\.
 
-_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”
+_Type:_ one of “intel”, “amd”, “nvidia”, “dxgkrnl”, “unknown”
 
 ## hardware\.facter\.detection\.graphics\.cards\.integrated\.unix
 

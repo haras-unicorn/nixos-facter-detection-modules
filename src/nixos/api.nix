@@ -123,6 +123,7 @@
               "amd"
               "nvidia"
               "dxgkrnl"
+              "unknown"
             ];
             description = ''
               Graphics card type.
