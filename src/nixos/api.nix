@@ -420,7 +420,7 @@
                   byVram = lib.mkOption {
                     type = lib.types.listOf (lib.types.submodule graphicsCardSubmodule);
                     description = ''
-                      Graphics cards sorted by VRAM size in descending order.
+                      Graphics cards sorted by user-provided VRAM size in descending order.
                     '';
                   };
 
@@ -436,7 +436,8 @@
                     type = lib.types.nullOr (lib.types.submodule graphicsCardSubmodule);
                     default = if (builtins.length config.byVram > 0) then builtins.head config.byVram else null;
                     description = ''
-                      User-provided default graphics card.
+                      User-provided default graphics card. Defaults to the first
+                      card in `byVram` (largest user-provided VRAM).
                     '';
                   };
 
@@ -444,7 +445,9 @@
                     type = lib.types.nullOr (lib.types.submodule graphicsCardSubmodule);
                     default = if (builtins.length config.byVram > 1) then lib.last config.byVram else null;
                     description = ''
-                      User-provided integrated graphics card.
+                      User-provided integrated graphics card. Defaults to the last
+                      card in `byVram` (smallest user-provided VRAM) when more than
+                      one card is present.
                     '';
                   };
                 };

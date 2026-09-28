@@ -2,7 +2,7 @@ def "main" []: nothing -> nothing {
   nu $"($env.FILE_PWD)/($env.FILE_NAME)" -h
 }
 
-# Run detection on this machine
+# Run nixos-facter on this machine and create a report
 def "main detect" [name: string]: nothing -> nothing {
   cd (flake-root)
   let result = sudo nixos-facter | complete
@@ -17,6 +17,23 @@ def "main detect" [name: string]: nothing -> nothing {
   $result.stdout
     | prettier --parser json
     | save -f ([ "test" $"report-($name).json" ] | path join)
+}
+
+# Run detection on a nixos-facter report and create a detection report
+def "main detection" [name: string]: nothing -> nothing {
+  cd (flake-root)
+  let result = nix eval --json $".#tests.detection.test-($name).expr" | complete
+
+  if $result.exit_code != 0 {
+    print -e $"nix eval exited with code ($result.exit_code)."
+    print -e $"stderr:\n($result.stderr)\n"
+    print -e $"stdout:\n($result.stdout)\n"
+    exit 1
+  }
+
+  $result.stdout
+    | prettier --parser json
+    | save -f ([ "test" $"detection-($name).json" ] | path join)
 }
 
 # Preview docs
@@ -35,6 +52,7 @@ def "main test" []: nothing -> nothing {
 def "main format" []: nothing -> nothing {
   cd (flake-root)
   open --raw (nix build --no-link --print-out-paths ".#options")
+    | prettier --parser markdown
     | save -f ./docs/options.md
   prettier --write (flake-root)
   nixfmt ...(fd '.*.nix$' (flake-root) | lines)

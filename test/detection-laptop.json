@@ -286,15 +286,28 @@
           "model": "ATI VGA compatible controller",
           "modules": ["amdgpu"],
           "open": false,
-          "pci": null,
+          "pci": "PCI:3:0:0",
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
-          "type": "amd",
+          "type": "unknown",
           "unix": null,
           "version": "unknown",
           "wayland": true
         }
       ],
-      "byPci": {},
+      "byPci": {
+        "PCI:3:0:0": {
+          "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": ["amdgpu"],
+          "open": false,
+          "pci": "PCI:3:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
+          "type": "unknown",
+          "unix": null,
+          "version": "unknown",
+          "wayland": true
+        }
+      },
       "byPort": {},
       "bySys": {
         "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0": {
@@ -302,9 +315,9 @@
           "model": "ATI VGA compatible controller",
           "modules": ["amdgpu"],
           "open": false,
-          "pci": null,
+          "pci": "PCI:3:0:0",
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
-          "type": "amd",
+          "type": "unknown",
           "unix": null,
           "version": "unknown",
           "wayland": true
@@ -316,9 +329,9 @@
           "model": "ATI VGA compatible controller",
           "modules": ["amdgpu"],
           "open": false,
-          "pci": null,
+          "pci": "PCI:3:0:0",
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
-          "type": "amd",
+          "type": "unknown",
           "unix": null,
           "version": "unknown",
           "wayland": true
@@ -329,9 +342,9 @@
         "model": "ATI VGA compatible controller",
         "modules": ["amdgpu"],
         "open": false,
-        "pci": null,
+        "pci": "PCI:3:0:0",
         "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.0",
-        "type": "amd",
+        "type": "unknown",
         "unix": null,
         "version": "unknown",
         "wayland": true
@@ -451,7 +464,7 @@
           "dev": [],
           "model": "ATI Multimedia controller",
           "modules": ["snd_hda_intel"],
-          "pci": null,
+          "pci": "PCI:3:0:1",
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1",
           "unix": null
         },
@@ -459,18 +472,35 @@
           "dev": [],
           "model": "AMD Multimedia controller",
           "modules": ["snd_hda_intel"],
-          "pci": null,
+          "pci": "PCI:3:0:6",
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6",
           "unix": null
         }
       ],
-      "byPci": {},
+      "byPci": {
+        "PCI:3:0:1": {
+          "dev": [],
+          "model": "ATI Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:3:0:1",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1",
+          "unix": null
+        },
+        "PCI:3:0:6": {
+          "dev": [],
+          "model": "AMD Multimedia controller",
+          "modules": ["snd_hda_intel"],
+          "pci": "PCI:3:0:6",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6",
+          "unix": null
+        }
+      },
       "bySys": {
         "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1": {
           "dev": [],
           "model": "ATI Multimedia controller",
           "modules": ["snd_hda_intel"],
-          "pci": null,
+          "pci": "PCI:3:0:1",
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.1",
           "unix": null
         },
@@ -478,7 +508,7 @@
           "dev": [],
           "model": "AMD Multimedia controller",
           "modules": ["snd_hda_intel"],
-          "pci": null,
+          "pci": "PCI:3:0:6",
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.6",
           "unix": null
         }

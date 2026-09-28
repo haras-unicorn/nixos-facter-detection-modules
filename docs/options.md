@@ -1668,7 +1668,7 @@ _Type:_ boolean
 
 ## hardware\.facter\.detection\.graphics\.cards\.byVram
 
-Graphics cards sorted by VRAM size in descending order\.
+Graphics cards sorted by user-provided VRAM size in descending order\.
 
 _Type:_ list of (submodule)
 
@@ -1776,7 +1776,8 @@ _Type:_ boolean
 
 ## hardware\.facter\.detection\.graphics\.cards\.default
 
-User-provided default graphics card\.
+User-provided default graphics card\. Defaults to the first card in `byVram`
+(largest user-provided VRAM)\.
 
 _Type:_ null or (submodule)
 
@@ -1890,7 +1891,8 @@ _Type:_ boolean
 
 ## hardware\.facter\.detection\.graphics\.cards\.integrated
 
-User-provided integrated graphics card\.
+User-provided integrated graphics card\. Defaults to the last card in `byVram`
+(smallest user-provided VRAM) when more than one card is present\.
 
 _Type:_ null or (submodule)
 
@@ -4797,6 +4799,20 @@ _Default:_
 Machine virtualisation\.
 
 _Type:_ string
+
+## hardware\.facter\.hintsV1\.graphics\.cards\.vramMap
+
+User-provided graphics card VRAM sizes in bytes keyed by PCI id\. Used to sort
+`hardware.facter.detection.graphics.cards.byVram` for the v1 facter report when
+upstream detection is unreliable\.
+
+_Type:_ attribute set of (unsigned integer, meaning >=0)
+
+_Default:_
+
+```nix
+{ }
+```
 
 ## hardware\.facter\.report
 

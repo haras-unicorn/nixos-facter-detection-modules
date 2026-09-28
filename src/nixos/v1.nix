@@ -26,11 +26,7 @@
             device.unix_device_names
           else
             [ ];
-        pci =
-          if device ? class_list && builtins.elem "pci" device.class_list && device ? sysfs_bus_id then
-            selfLib.sys.sysfsBusIdToPciId device.sysfs_bus_id
-          else
-            null;
+        pci = if device ? sysfs_bus_id then selfLib.sys.sysfsBusIdToPciId device.sysfs_bus_id else null;
         unix =
           if device ? unix_device_name then
             device.unix_device_name
@@ -41,6 +37,16 @@
       };
     in
     {
+      options.hardware.facter.hintsV1.graphics.cards.vramMap = lib.mkOption {
+        type = lib.types.attrsOf lib.types.ints.unsigned;
+        default = { };
+        description = ''
+          User-provided graphics card VRAM sizes in bytes keyed by PCI id.
+          Used to sort `hardware.facter.detection.graphics.cards.byVram` for
+          the v1 facter report when upstream detection is unreliable.
+        '';
+      };
+
       config = lib.mkIf (version == 1) {
         hardware.facter.detection = {
           version = version;
@@ -133,71 +139,72 @@
           graphics = {
             cards =
               let
-                graphicsCardMemoryHeuristic =
-                  graphicsCard:
-                  lib.foldl' (
-                    sum: resource: sum + (if resource ? type && resource.type == "mem" then resource.range or 0 else 0)
-                  ) 0 (graphicsCard.resources or [ ]);
-
                 graphicsCardType =
                   graphicsCard:
-                  if builtins.match ".*nvidia.*" (graphicsCard.driver or "") != null then
-                    "nvidia"
-                  else if builtins.match ".*amdgpu.*" (graphicsCard.driver or "") != null then
-                    "amd"
-                  else if builtins.match ".*i915.*" (graphicsCard.driver or "") != null then
-                    "intel"
-                  else if builtins.match ".*dxgkrnl.*" (graphicsCard.driver or "") != null then
+                  if virtualisation == "wsl" then
                     "dxgkrnl"
                   else
-                    "unknown";
+                    let
+                      vendor = lib.toLower (graphicsCard.vendor.hex or "");
+                    in
+                    if vendor == selfLib.vendor.ids.nvidia then
+                      "nvidia"
+                    else if vendor == selfLib.vendor.ids.amd then
+                      "amd"
+                    else if vendor == selfLib.vendor.ids.intel then
+                      "intel"
+                    else
+                      "unknown";
 
                 matchNvidiaGraphicsCardDriverList =
                   graphicsCard: driverListName:
-                  graphicsCard.driver == "nvidia"
-                  && (builtins.any (
+                  builtins.any (
                     id: (builtins.match "^pci:.+d.*${id}sv.+$" graphicsCard.module_alias) != null
-                  ) selfLib.nvidia.frozen.${driverListName});
+                  ) selfLib.nvidia.frozen.${driverListName};
+
+                vramMap = config.hardware.facter.hintsV1.graphics.cards.vramMap;
+
+                graphicsCardVram =
+                  graphicsCard:
+                  if graphicsCard.pci != null && builtins.hasAttr graphicsCard.pci vramMap then
+                    vramMap.${graphicsCard.pci}
+                  else
+                    0;
 
                 reportGraphicsCards = hardware.graphics_card or [ ];
 
-                graphicsCards =
-                  builtins.map
-                    (
-                      graphicsCard:
-                      (makeGenericDevice graphicsCard)
-                      // rec {
-                        type = graphicsCardType graphicsCard;
+                graphicsCards = builtins.map (
+                  graphicsCard:
+                  (makeGenericDevice graphicsCard)
+                  // rec {
+                    type = graphicsCardType graphicsCard;
 
-                        version =
-                          if type != "nvidia" then
-                            "unknown"
-                          else if matchNvidiaGraphicsCardDriverList graphicsCard "open" then
-                            "latest"
-                          else if matchNvidiaGraphicsCardDriverList graphicsCard "legacy470" then
-                            "legacy_470"
-                          else if matchNvidiaGraphicsCardDriverList graphicsCard "legacy390" then
-                            "legacy_390"
-                          else if matchNvidiaGraphicsCardDriverList graphicsCard "legacy340" then
-                            "legacy_340"
-                          else
-                            "production";
+                    version =
+                      if type != "nvidia" then
+                        "unknown"
+                      else if matchNvidiaGraphicsCardDriverList graphicsCard "open" then
+                        "latest"
+                      else if matchNvidiaGraphicsCardDriverList graphicsCard "legacy470" then
+                        "legacy_470"
+                      else if matchNvidiaGraphicsCardDriverList graphicsCard "legacy390" then
+                        "legacy_390"
+                      else if matchNvidiaGraphicsCardDriverList graphicsCard "legacy340" then
+                        "legacy_340"
+                      else
+                        "production";
 
-                        open = type == "nvidia" && matchNvidiaGraphicsCardDriverList graphicsCard "open";
+                    open = type == "nvidia" && matchNvidiaGraphicsCardDriverList graphicsCard "open";
 
-                        wayland = !(type == "nvidia" && matchNvidiaGraphicsCardDriverList graphicsCard "legacy");
-                      }
-                    )
-                    (
-                      lib.sort (
-                        lhsGraphicsCard: rhsGraphicsCard:
-                        graphicsCardMemoryHeuristic lhsGraphicsCard > graphicsCardMemoryHeuristic rhsGraphicsCard
-                      ) reportGraphicsCards
-                    );
+                    wayland = !(type == "nvidia" && matchNvidiaGraphicsCardDriverList graphicsCard "legacy");
+                  }
+                ) reportGraphicsCards;
               in
               {
                 byModel = graphicsCards;
-                byVram = graphicsCards;
+                byVram = lib.sort (
+                  lhsGraphicsCard: rhsGraphicsCard:
+                  graphicsCardVram lhsGraphicsCard > graphicsCardVram rhsGraphicsCard
+                ) graphicsCards;
               };
           };
 
@@ -281,7 +288,7 @@
             receivers =
               let
                 reportLogitechReceivers = lib.filter (
-                  device: (device.vendor.name or "") == "Logitech Inc." || device.vendor.value or 0 == 1133
+                  device: lib.toLower (device.vendor.hex or "") == selfLib.vendor.ids.logitech
                 ) ((hardware.mouse or [ ]) ++ (hardware.keyboard or [ ]));
 
                 logitechReceivers = builtins.map makeGenericDevice reportLogitechReceivers;
