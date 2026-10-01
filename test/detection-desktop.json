@@ -50,7 +50,11 @@
     "sound": true,
     "typing": true
   },
-  "cpu": { "cores": 8, "threads": 16, "type": "amd" },
+  "cpu": {
+    "cores": 8,
+    "threads": 16,
+    "type": "amd"
+  },
   "disks": {
     "byDev": {
       "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841": {
@@ -74,7 +78,7 @@
         "pci": null,
         "size": 2048408248320,
         "sys": "/sys/class/block/nvme0n1",
-        "unix": "/dev/nvme0n1"
+        "unix": "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841"
       },
       "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841_1": {
         "dev": [
@@ -97,7 +101,7 @@
         "pci": null,
         "size": 2048408248320,
         "sys": "/sys/class/block/nvme0n1",
-        "unix": "/dev/nvme0n1"
+        "unix": "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841"
       },
       "/dev/disk/by-id/nvme-eui.00000000000000000026b73838f48415": {
         "dev": [
@@ -120,7 +124,7 @@
         "pci": null,
         "size": 2048408248320,
         "sys": "/sys/class/block/nvme0n1",
-        "unix": "/dev/nvme0n1"
+        "unix": "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841"
       },
       "/dev/disk/by-path/pci-0000:02:00.0-nvme-1": {
         "dev": [
@@ -143,7 +147,7 @@
         "pci": null,
         "size": 2048408248320,
         "sys": "/sys/class/block/nvme0n1",
-        "unix": "/dev/nvme0n1"
+        "unix": "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841"
       },
       "/dev/nvme0n1": {
         "dev": [
@@ -166,7 +170,7 @@
         "pci": null,
         "size": 2048408248320,
         "sys": "/sys/class/block/nvme0n1",
-        "unix": "/dev/nvme0n1"
+        "unix": "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841"
       }
     },
     "byModel": [
@@ -191,7 +195,7 @@
         "pci": null,
         "size": 2048408248320,
         "sys": "/sys/class/block/nvme0n1",
-        "unix": "/dev/nvme0n1"
+        "unix": "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841"
       }
     ],
     "byMount": {},
@@ -218,7 +222,7 @@
         "pci": null,
         "size": 2048408248320,
         "sys": "/sys/class/block/nvme0n1",
-        "unix": "/dev/nvme0n1"
+        "unix": "/dev/disk/by-id/nvme-KINGSTON_SKC3000D2048G_50026B73838F4841"
       }
     }
   },
@@ -226,6 +230,18 @@
     "cards": {
       "byDev": {},
       "byModel": [
+        {
+          "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": [],
+          "open": false,
+          "pci": "PCI:12:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
+          "type": "amd",
+          "unix": null,
+          "version": "unknown",
+          "wayland": true
+        },
         {
           "dev": [],
           "model": "nVidia VGA compatible controller",
@@ -237,25 +253,13 @@
           "unix": null,
           "version": "latest",
           "wayland": true
-        },
-        {
-          "dev": [],
-          "model": "ATI VGA compatible controller",
-          "modules": ["amdgpu"],
-          "open": false,
-          "pci": "PCI:12:0:0",
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
-          "type": "amd",
-          "unix": null,
-          "version": "unknown",
-          "wayland": true
         }
       ],
       "byPci": {
         "PCI:12:0:0": {
           "dev": [],
           "model": "ATI VGA compatible controller",
-          "modules": ["amdgpu"],
+          "modules": [],
           "open": false,
           "pci": "PCI:12:0:0",
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
@@ -294,7 +298,7 @@
         "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0": {
           "dev": [],
           "model": "ATI VGA compatible controller",
-          "modules": ["amdgpu"],
+          "modules": [],
           "open": false,
           "pci": "PCI:12:0:0",
           "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
@@ -307,6 +311,18 @@
       "byVram": [
         {
           "dev": [],
+          "model": "ATI VGA compatible controller",
+          "modules": [],
+          "open": false,
+          "pci": "PCI:12:0:0",
+          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
+          "type": "amd",
+          "unix": null,
+          "version": "unknown",
+          "wayland": true
+        },
+        {
+          "dev": [],
           "model": "nVidia VGA compatible controller",
           "modules": ["nvidia"],
           "open": true,
@@ -316,21 +332,21 @@
           "unix": null,
           "version": "latest",
           "wayland": true
-        },
-        {
-          "dev": [],
-          "model": "ATI VGA compatible controller",
-          "modules": ["amdgpu"],
-          "open": false,
-          "pci": "PCI:12:0:0",
-          "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
-          "type": "amd",
-          "unix": null,
-          "version": "unknown",
-          "wayland": true
         }
       ],
       "default": {
+        "dev": [],
+        "model": "ATI VGA compatible controller",
+        "modules": [],
+        "open": false,
+        "pci": "PCI:12:0:0",
+        "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
+        "type": "amd",
+        "unix": null,
+        "version": "unknown",
+        "wayland": true
+      },
+      "integrated": {
         "dev": [],
         "model": "nVidia VGA compatible controller",
         "modules": ["nvidia"],
@@ -341,66 +357,22 @@
         "unix": null,
         "version": "latest",
         "wayland": true
-      },
-      "integrated": {
-        "dev": [],
-        "model": "ATI VGA compatible controller",
-        "modules": ["amdgpu"],
-        "open": false,
-        "pci": "PCI:12:0:0",
-        "sys": "/sys/devices/pci0000:00/0000:00:08.1/0000:0c:00.0",
-        "type": "amd",
-        "unix": null,
-        "version": "unknown",
-        "wayland": true
       }
     },
     "enable": true
   },
   "logitech": {
-    "enable": true,
+    "enable": false,
     "receivers": {
       "byDev": {},
-      "byModel": [
-        {
-          "dev": [],
-          "model": "Logitech USB Receiver",
-          "modules": ["usbhid"],
-          "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1",
-          "unix": null
-        },
-        {
-          "dev": [],
-          "model": "Logitech USB Receiver",
-          "modules": ["usbhid"],
-          "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0",
-          "unix": null
-        }
-      ],
+      "byModel": [],
       "byPci": {},
-      "bySys": {
-        "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0": {
-          "dev": [],
-          "model": "Logitech USB Receiver",
-          "modules": ["usbhid"],
-          "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0",
-          "unix": null
-        },
-        "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1": {
-          "dev": [],
-          "model": "Logitech USB Receiver",
-          "modules": ["usbhid"],
-          "pci": null,
-          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1",
-          "unix": null
-        }
-      }
+      "bySys": {}
     }
   },
-  "memory": { "size": 64424509440 },
+  "memory": {
+    "size": 64424509440
+  },
   "monitor": {
     "displays": {
       "byDev": {},
@@ -454,11 +426,29 @@
         {
           "dev": [],
           "model": "Ethernet network interface",
+          "modules": ["rtw88_8822bu"],
+          "name": "wlp10s0u1",
+          "pci": null,
+          "sys": "/sys/class/net/wlp10s0u1",
+          "unix": "wlp10s0u1"
+        },
+        {
+          "dev": [],
+          "model": "Ethernet network interface",
           "modules": ["r8169"],
           "name": "eno1",
           "pci": null,
           "sys": "/sys/class/net/eno1",
           "unix": "eno1"
+        },
+        {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["rndis_host"],
+          "name": "enp10s0u3",
+          "pci": null,
+          "sys": "/sys/class/net/enp10s0u3",
+          "unix": "enp10s0u3"
         }
       ],
       "byName": {
@@ -470,6 +460,24 @@
           "pci": null,
           "sys": "/sys/class/net/eno1",
           "unix": "eno1"
+        },
+        "enp10s0u3": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["rndis_host"],
+          "name": "enp10s0u3",
+          "pci": null,
+          "sys": "/sys/class/net/enp10s0u3",
+          "unix": "enp10s0u3"
+        },
+        "wlp10s0u1": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["rtw88_8822bu"],
+          "name": "wlp10s0u1",
+          "pci": null,
+          "sys": "/sys/class/net/wlp10s0u1",
+          "unix": "wlp10s0u1"
         }
       },
       "byPci": {},
@@ -482,42 +490,69 @@
           "pci": null,
           "sys": "/sys/class/net/eno1",
           "unix": "eno1"
+        },
+        "/sys/class/net/enp10s0u3": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["rndis_host"],
+          "name": "enp10s0u3",
+          "pci": null,
+          "sys": "/sys/class/net/enp10s0u3",
+          "unix": "enp10s0u3"
+        },
+        "/sys/class/net/wlp10s0u1": {
+          "dev": [],
+          "model": "Ethernet network interface",
+          "modules": ["rtw88_8822bu"],
+          "name": "wlp10s0u1",
+          "pci": null,
+          "sys": "/sys/class/net/wlp10s0u1",
+          "unix": "wlp10s0u1"
         }
       },
       "default": {
         "dev": [],
         "model": "Ethernet network interface",
-        "modules": ["r8169"],
-        "name": "eno1",
+        "modules": ["rtw88_8822bu"],
+        "name": "wlp10s0u1",
         "pci": null,
-        "sys": "/sys/class/net/eno1",
-        "unix": "eno1"
+        "sys": "/sys/class/net/wlp10s0u1",
+        "unix": "wlp10s0u1"
       }
     }
   },
   "pointer": {
     "enable": true,
     "mice": {
-      "byDev": {},
-      "byModel": [
-        {
-          "dev": [],
-          "model": "Logitech USB Receiver",
+      "byDev": {
+        "/dev/input/event3": {
+          "dev": ["/dev/input/event3"],
+          "model": "SEMICO USB Keyboard",
           "modules": ["usbhid"],
           "pci": null,
           "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1",
-          "unix": null
+          "unix": "/dev/input/event3"
+        }
+      },
+      "byModel": [
+        {
+          "dev": ["/dev/input/event3"],
+          "model": "SEMICO USB Keyboard",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1",
+          "unix": "/dev/input/event3"
         }
       ],
       "byPci": {},
       "bySys": {
         "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1": {
-          "dev": [],
-          "model": "Logitech USB Receiver",
+          "dev": ["/dev/input/event3"],
+          "model": "SEMICO USB Keyboard",
           "modules": ["usbhid"],
           "pci": null,
           "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.1",
-          "unix": null
+          "unix": "/dev/input/event3"
         }
       }
     }
@@ -690,26 +725,89 @@
   "typer": {
     "enable": true,
     "keyboards": {
-      "byDev": {},
-      "byModel": [
-        {
-          "dev": [],
-          "model": "Logitech USB Receiver",
+      "byDev": {
+        "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd": {
+          "dev": [
+            "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usb-0:10:1.0-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usbv2-0:10:1.0-event-kbd",
+            "/dev/input/event1"
+          ],
+          "model": "SEMICO USB Keyboard",
           "modules": ["usbhid"],
           "pci": null,
           "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0",
-          "unix": null
+          "unix": "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd"
+        },
+        "/dev/input/by-path/pci-0000:0a:00.0-usb-0:10:1.0-event-kbd": {
+          "dev": [
+            "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usb-0:10:1.0-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usbv2-0:10:1.0-event-kbd",
+            "/dev/input/event1"
+          ],
+          "model": "SEMICO USB Keyboard",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0",
+          "unix": "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd"
+        },
+        "/dev/input/by-path/pci-0000:0a:00.0-usbv2-0:10:1.0-event-kbd": {
+          "dev": [
+            "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usb-0:10:1.0-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usbv2-0:10:1.0-event-kbd",
+            "/dev/input/event1"
+          ],
+          "model": "SEMICO USB Keyboard",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0",
+          "unix": "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd"
+        },
+        "/dev/input/event1": {
+          "dev": [
+            "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usb-0:10:1.0-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usbv2-0:10:1.0-event-kbd",
+            "/dev/input/event1"
+          ],
+          "model": "SEMICO USB Keyboard",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0",
+          "unix": "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd"
+        }
+      },
+      "byModel": [
+        {
+          "dev": [
+            "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usb-0:10:1.0-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usbv2-0:10:1.0-event-kbd",
+            "/dev/input/event1"
+          ],
+          "model": "SEMICO USB Keyboard",
+          "modules": ["usbhid"],
+          "pci": null,
+          "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0",
+          "unix": "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd"
         }
       ],
       "byPci": {},
       "bySys": {
         "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0": {
-          "dev": [],
-          "model": "Logitech USB Receiver",
+          "dev": [
+            "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usb-0:10:1.0-event-kbd",
+            "/dev/input/by-path/pci-0000:0a:00.0-usbv2-0:10:1.0-event-kbd",
+            "/dev/input/event1"
+          ],
+          "model": "SEMICO USB Keyboard",
           "modules": ["usbhid"],
           "pci": null,
           "sys": "/sys/devices/pci0000:00/0000:00:02.1/0000:03:00.0/0000:04:0c.0/0000:0a:00.0/usb1/1-10/1-10:1.0",
-          "unix": null
+          "unix": "/dev/input/by-id/usb-SEMICO_USB_Keyboard-event-kbd"
         }
       }
     }

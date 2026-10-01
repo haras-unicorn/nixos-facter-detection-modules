@@ -77,7 +77,7 @@
             ) eval.config.hardware.facter.detection;
           in
           {
-            name = "test-${name}-${version}";
+            name = "test-${name}";
             value =
               if expected == { } then
                 builtins.throw (
