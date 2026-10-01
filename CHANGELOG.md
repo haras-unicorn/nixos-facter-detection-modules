@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/haras-unicorn/nixos-facter-detection-modules/compare/v1.1.2...v1.1.3) (2026-10-01)
+
+
+### Bug Fixes
+
+* make detection more stable ([#13](https://github.com/haras-unicorn/nixos-facter-detection-modules/issues/13)) ([06da30d](https://github.com/haras-unicorn/nixos-facter-detection-modules/commit/06da30d9f4f52fc3e1ec5319656670fca549f1f2))
+
 ## [1.1.2](https://github.com/haras-unicorn/nixos-facter-detection-modules/compare/v1.1.1...v1.1.2) (2026-09-28)
 
 
